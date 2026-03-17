@@ -1,0 +1,61 @@
+{
+  "changeSpeed": {
+    "description": "Změňte rychlost přehrávání zvukových souborů. Zrychlete nebo zpomalte zvuk při zachování výšky tónu.",
+    "inputTitle": "Vstupní zvuk",
+    "newAudioSpeed": "Nová rychlost zvuku",
+    "outputFormat": "Výstupní formát",
+    "resultTitle": "Upravený zvuk",
+    "settingSpeed": "Nastavení rychlosti",
+    "shortDescription": "Změna rychlosti zvukových souborů",
+    "speedDescription": "Výchozí násobitel: 2 znamená 2× rychleji",
+    "title": "Změnit rychlost zvuku",
+    "toolInfo": {
+      "title": "Co je {{title}}?"
+    }
+  },
+  "extractAudio": {
+    "description": "Extrakce zvukové stopy z video souborů.",
+    "extractingAudio": "Extrahování zvuku",
+    "inputTitle": "Vstupní video",
+    "outputFormat": "Výstupní formát",
+    "outputFormatDescription": "Vyberte formát, do kterého bude zvuk extrahován.",
+    "resultTitle": "Extrahovaný zvuk",
+    "shortDescription": "Extrakce zvuku z video souborů (MP4, MOV atd.) do AAC, MP3 nebo WAV.",
+    "title": "Extrahovat zvuk z videa",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje extrahovat zvukovou stopu z video souborů. Můžete si vybrat z různých zvukových formátů včetně AAC, MP3 a WAV.",
+      "title": "Co je {{title}}?"
+    }
+  },
+  "mergeAudio": {
+    "description": "Sloučení více zvukových souborů do jednoho zvukového souboru jejich postupným spojením.",
+    "inputTitle": "Vstupní zvukové soubory",
+    "longDescription": "Tento nástroj umožňuje sloučit více zvukových souborů do jednoho souboru jejich spojením v pořadí, v jakém je nahrajete. Ideální pro kombinování segmentů podcastů, hudebních stop nebo jakýchkoli zvukových souborů, které je třeba spojit. Podporuje různé zvukové formáty včetně MP3, AAC a WAV.",
+    "mergingAudio": "Slučování zvuku",
+    "outputFormat": "Výstupní formát",
+    "resultTitle": "Sloučený zvuk",
+    "shortDescription": "Sloučení více zvukových souborů do jednoho (MP3, AAC, WAV).",
+    "title": "Sloučit zvuk",
+    "toolInfo": {
+      "title": "Co je {{title}}?"
+    }
+  },
+  "trim": {
+    "description": "Ořízněte a zastřihněte zvukové soubory pro extrakci konkrétních segmentů zadáním počátečního a koncového času.",
+    "endTime": "Koncový čas",
+    "endTimeDescription": "Koncový čas ve formátu HH:MM:SS (např. 00:01:30)",
+    "inputTitle": "Vstupní zvuk",
+    "longDescription": "Tento nástroj umožňuje oříznout zvukové soubory zadáním počátečního a koncového času. Můžete extrahovat konkrétní segmenty z delších zvukových souborů, odstranit nežádoucí části nebo vytvořit kratší klipy. Podporuje různé zvukové formáty včetně MP3, AAC a WAV. Ideální pro úpravu podcastů, hudební produkci nebo jakékoli potřeby úpravy zvuku.",
+    "outputFormat": "Výstupní formát",
+    "resultTitle": "Oříznutý zvuk",
+    "shortDescription": "Oříznutí zvukových souborů pro extrakci konkrétních časových segmentů (MP3, AAC, WAV).",
+    "startTime": "Počáteční čas",
+    "startTimeDescription": "Počáteční čas ve formátu HH:MM:SS (např. 00:00:30)",
+    "timeSettings": "Nastavení času",
+    "title": "Oříznout zvuk",
+    "toolInfo": {
+      "title": "Co je {{title}}?"
+    },
+    "trimmingAudio": "Ořezávání zvuku"
+  }
+}

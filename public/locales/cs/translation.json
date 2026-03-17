@@ -1,0 +1,267 @@
+{
+  "audio": {
+    "changeSpeed": {
+      "description": "Změňte rychlost přehrávání zvukových souborů. Zrychlete nebo zpomalte zvuk při zachování výšky tónu.",
+      "name": "Změnit rychlost zvuku",
+      "shortDescription": "Změna rychlosti zvukových souborů"
+    },
+    "extractAudio": {
+      "description": "Extrahujte zvukovou stopu z video souboru a uložte ji jako samostatný zvukový soubor ve zvoleném formátu (AAC, MP3, WAV).",
+      "name": "Extrahovat zvuk",
+      "shortDescription": "Extrakce zvuku z video souborů (MP4, MOV atd.) do AAC, MP3 nebo WAV."
+    }
+  },
+  "baseFileInput": {
+    "copyFailed": "Kopírování se nezdařilo: {{error}}",
+    "dropFileHere": "Přetáhněte {{type}} sem",
+    "fileCopied": "Soubor zkopírován",
+    "selectFileDescription": "Klikněte zde pro výběr {{type}} z vašeho zařízení, stiskněte Ctrl+V pro použití {{type}} ze schránky, nebo přetáhněte soubor z plochy"
+  },
+  "converters": {
+    "audioconverter": {
+      "title": "Převodník zvuku",
+      "description": "Převod zvukových souborů mezi různými formáty.",
+      "shortDescription": "Převod zvukových souborů do různých formátů.",
+      "longDescription": "Tento nástroj umožňuje převádět zvukové soubory z jednoho formátu do druhého s podporou široké škály zvukových formátů pro bezproblémový převod."
+    }
+  },
+  "categories": {
+    "audio": {
+      "description": "Nástroje pro práci se zvukem – extrakce zvuku z videa, úprava rychlosti zvuku, sloučení více zvukových souborů a mnoho dalšího.",
+      "title": "Zvukové nástroje"
+    },
+    "converters": {
+      "description": "Nástroje pro převod dat mezi různými formáty – převod obrázků, zvuku, videa, textu a dalšího.",
+      "title": "Nástroje pro převod"
+    },
+    "csv": {
+      "description": "Nástroje pro práci s CSV soubory – převod CSV do různých formátů, manipulace s CSV daty, validace CSV struktury a efektivní zpracování CSV souborů.",
+      "title": "CSV nástroje"
+    },
+    "gif": {
+      "description": "Nástroje pro práci s GIF animacemi – vytváření průhledných GIFů, extrakce snímků z GIFů, přidání textu do GIFů, oříznutí, otočení, převrácení GIFů a mnoho dalšího.",
+      "title": "GIF nástroje"
+    },
+    "image-generic": {
+      "description": "Nástroje pro práci s obrázky – komprese, změna velikosti, oříznutí, převod do JPG, otočení, odstranění pozadí a mnoho dalšího.",
+      "title": "Obrázkové nástroje"
+    },
+    "json": {
+      "description": "Nástroje pro práci s JSON datovými strukturami – formátování a minifikace JSON objektů, zploštění JSON polí, převod JSON hodnot na řetězce, analýza dat a mnoho dalšího.",
+      "title": "JSON nástroje"
+    },
+    "list": {
+      "description": "Nástroje pro práci se seznamy – řazení, obrácení, náhodné promíchání seznamů, vyhledávání unikátních a duplicitních položek, změna oddělovačů a mnoho dalšího.",
+      "title": "Seznamové nástroje"
+    },
+    "number": {
+      "description": "Nástroje pro práci s čísly – generování číselných posloupností, převod čísel na slova a slov na čísla, řazení, zaokrouhlování, faktorizace čísel a mnoho dalšího.",
+      "title": "Číselné nástroje"
+    },
+    "pdf": {
+      "description": "Nástroje pro práci s PDF soubory – extrakce textu z PDF, převod PDF do jiných formátů, manipulace s PDF a mnoho dalšího.",
+      "title": "PDF nástroje"
+    },
+    "png": {
+      "description": "Nástroje pro práci s PNG obrázky – převod PNG na JPG, vytváření průhledných PNG, změna barev PNG, oříznutí, otočení, změna velikosti PNG a mnoho dalšího.",
+      "title": "PNG nástroje"
+    },
+    "seeAll": "Zobrazit všechny {{title}}",
+    "string": {
+      "description": "Nástroje pro práci s textem – převod textu na obrázky, hledání a nahrazování textu, rozdělení textu na fragmenty, spojení textových řádků, opakování textu a mnoho dalšího.",
+      "title": "Textové nástroje"
+    },
+    "time": {
+      "description": "Nástroje pro práci s časem a datem – výpočet časových rozdílů, převod mezi časovými zónami, formátování dat, generování datových sekvencí a mnoho dalšího.",
+      "title": "Časové nástroje"
+    },
+    "try": "Vyzkoušet {{title}}",
+    "video": {
+      "description": "Nástroje pro práci s videem – extrakce snímků z videí, vytváření GIFů z videí, převod videí do různých formátů a mnoho dalšího.",
+      "title": "Video nástroje"
+    },
+    "xml": {
+      "description": "Nástroje pro práci s XML datovými strukturami – prohlížeč, formátovač, validátor a mnoho dalšího.",
+      "title": "XML nástroje"
+    }
+  },
+  "csv": {
+    "findIncompleteCsvRecords": {
+      "description": "Stačí nahrát CSV soubor do formuláře níže a tento nástroj automaticky zkontroluje, zda v žádném z řádků nebo sloupců nechybí hodnoty. V nastavení nástroje můžete upravit formát vstupního souboru (oddělovač, znak uvozovek a znak komentáře). Navíc můžete povolit kontrolu prázdných hodnot, přeskočení prázdných řádků a nastavit limit počtu chybových hlášení na výstupu.",
+      "name": "Najít neúplné CSV záznamy",
+      "shortDescription": "Rychle najděte řádky a sloupce v CSV, ve kterých chybí hodnoty."
+    }
+  },
+  "hero": {
+    "brand": "Great Tools",
+    "description": "Zvyšte svou produktivitu s Great Tools, dokonalou sadou nástrojů pro rychlé dokončení úkolů! Přistupujte k tisícům uživatelsky přívětivých utilit pro úpravu obrázků, textu, seznamů a dat, vše přímo z vašeho prohlížeče.",
+    "examples": {
+      "calculateNumberSum": "Vypočítat součet čísel",
+      "changeGifSpeed": "Změnit rychlost GIFu",
+      "compressPng": "Komprimovat PNG",
+      "createTransparentImage": "Vytvořit průhledný obrázek",
+      "prettifyJson": "Formátovat JSON",
+      "sortList": "Seřadit seznam",
+      "splitPdf": "Rozdělit PDF",
+      "splitText": "Rozdělit text",
+      "trimVideo": "Oříznout video"
+    },
+    "searchPlaceholder": "Hledat všechny nástroje",
+    "title": "Vyřešte věci rychle s"
+  },
+  "inputFooter": {
+    "clear": "Vymazat",
+    "copyToClipboard": "Kopírovat do schránky",
+    "importFromFile": "Importovat ze souboru"
+  },
+  "list": {
+    "group": {
+      "description": "Nejjednodušší prohlížečový nástroj pro seskupování položek seznamu. Zadejte svůj seznam a specifikujte kritéria seskupení pro organizaci položek do logických skupin. Ideální pro kategorizaci dat, organizaci informací nebo vytváření strukturovaných seznamů. Podporuje vlastní oddělovače a různé možnosti seskupení.",
+      "name": "Seskupit",
+      "shortDescription": "Seskupení položek seznamu podle společných vlastností"
+    },
+    "reverse": {
+      "description": "Toto je velmi jednoduchá prohlížečová aplikace, která vypíše všechny položky seznamu v opačném pořadí. Vstupní položky mohou být odděleny jakýmkoli symbolem a můžete také změnit oddělovač obráceného seznamu.",
+      "name": "Obrátit",
+      "shortDescription": "Rychle obrátit seznam"
+    },
+    "sort": {
+      "description": "Toto je velmi jednoduchá prohlížečová aplikace, která řadí položky v seznamu a uspořádá je ve vzestupném nebo sestupném pořadí. Položky můžete řadit abecedně, číselně nebo podle délky. Můžete také odebrat duplicitní a prázdné položky a oříznout jednotlivé položky s mezerami kolem nich. Jako oddělovač položek vstupního seznamu můžete použít jakýkoli znak nebo regulární výraz. Navíc můžete vytvořit nový oddělovač pro seřazený výstupní seznam.",
+      "name": "Seřadit",
+      "shortDescription": "Rychle seřadit seznam"
+    }
+  },
+  "navbar": {
+    "buyMeACoffee": "Kupte mi kávu",
+    "hireMe": "Najměte mě",
+    "home": "Domů",
+    "tools": "Nástroje"
+  },
+  "number": {
+    "generate": {
+      "description": "Rychle vygenerujte seznam celých čísel v prohlížeči. Pro získání seznamu stačí zadat první celé číslo, hodnotu změny a celkový počet v nastavení níže a nástroj vygeneruje požadovaný počet celých čísel.",
+      "name": "Generovat čísla",
+      "shortDescription": "Rychle vygenerujte seznam celých čísel v prohlížeči"
+    },
+    "sum": {
+      "description": "Toto je velmi jednoduchá prohlížečová aplikace, která sčítá čísla. Vstupní čísla mohou být oddělena jakýmkoli symbolem a můžete také změnit oddělovač sečtených čísel.",
+      "name": "Sečíst čísla",
+      "shortDescription": "Rychle sečtěte seznam čísel"
+    }
+  },
+  "numericInputWithUnit": {
+    "unit": "Jednotka"
+  },
+  "pdf": {
+    "compressPdf": {
+      "description": "Zmenšete velikost PDF souboru při zachování kvality pomocí Ghostscriptu",
+      "name": "Komprimovat PDF",
+      "shortDescription": "Komprimujte PDF soubory bezpečně ve vašem prohlížeči"
+    },
+    "mergePdf": {
+      "description": "Sloučení více PDF souborů do jednoho dokumentu.",
+      "name": "Sloučit PDF",
+      "shortDescription": "Sloučení více PDF souborů do jednoho dokumentu"
+    },
+    "pdfToEpub": {
+      "description": "Převeďte PDF dokumenty na EPUB soubory pro lepší kompatibilitu s čtečkami elektronických knih.",
+      "name": "PDF do EPUB",
+      "shortDescription": "Převod PDF souborů do formátu EPUB"
+    },
+    "protectPdf": {
+      "description": "Přidejte ochranu heslem k vašim PDF souborům bezpečně ve vašem prohlížeči",
+      "name": "Ochránit PDF",
+      "shortDescription": "Bezpečná ochrana PDF souborů heslem"
+    },
+    "splitPdf": {
+      "description": "Extrahujte konkrétní stránky z PDF souboru pomocí čísel stránek nebo rozsahů (např. 1,5-8)",
+      "name": "Rozdělit PDF",
+      "shortDescription": "Extrakce konkrétních stránek z PDF souboru"
+    }
+  },
+  "resultFooter": {
+    "copy": "Kopírovat do schránky",
+    "download": "Stáhnout"
+  },
+  "string": {
+    "createPalindrome": {
+      "description": "Nejjednodušší prohlížečový nástroj pro vytváření palindromů z jakéhokoli textu. Zadejte text a okamžitě jej transformujte na palindrom, který se čte stejně dopředu i dozadu. Ideální pro slovní hry, vytváření symetrických textových vzorů nebo zkoumání lingvistických kuriozit.",
+      "name": "Vytvořit palindrom",
+      "shortDescription": "Vytvoření textu, který se čte stejně dopředu i dozadu"
+    },
+    "palindrome": {
+      "description": "Nejjednodušší prohlížečový nástroj pro kontrolu, zda je text palindrom. Okamžitě ověřte, zda se váš text čte stejně dopředu i dozadu. Ideální pro slovní hádanky, lingvistickou analýzu nebo ověřování symetrických textových vzorů. Podporuje různé oddělovače a detekci víceslovných palindromů.",
+      "name": "Palindrom",
+      "shortDescription": "Kontrola, zda se text čte stejně dopředu i dozadu"
+    },
+    "repeat": {
+      "description": "Tento nástroj umožňuje opakovat zadaný text vícekrát s volitelným oddělovačem.",
+      "name": "Opakovat text",
+      "shortDescription": "Opakování textu vícekrát"
+    },
+    "reverse": {
+      "description": "Nejjednodušší prohlížečový nástroj pro obrácení textu. Zadejte jakýkoli text a okamžitě jej získejte obrácený, znak po znaku. Ideální pro vytváření zrcadlového textu, analýzu palindromů nebo hraní si s textovými vzory. Zachovává mezery a speciální znaky při obrácení.",
+      "name": "Obrátit",
+      "shortDescription": "Obrácení jakéhokoli textu znak po znaku"
+    },
+    "toMorse": {
+      "description": "Nejjednodušší prohlížečový nástroj pro převod textu na Morseovu abecedu. Načtěte text do vstupního formuláře vlevo a okamžitě získáte Morseův kód ve výstupní oblasti. Výkonný, bezplatný a rychlý. Načtěte text – získejte Morseův kód.",
+      "name": "Text na Morseovku",
+      "shortDescription": "Rychlé zakódování textu do Morseovy abecedy"
+    },
+    "uppercase": {
+      "description": "Nejjednodušší prohlížečový nástroj pro převod textu na velká písmena. Stačí zadat text a automaticky se převede na velká písmena. Ideální pro vytváření nadpisů, zvýrazňování textu nebo standardizaci formátu textu. Podporuje různé textové formáty a zachovává speciální znaky.",
+      "name": "Velká písmena",
+      "shortDescription": "Převod textu na velká písmena"
+    }
+  },
+  "toolExamples": {
+    "subtitle": "Klikněte pro vyzkoušení!",
+    "title": "Příklady {{title}}"
+  },
+  "toolFileResult": {
+    "copied": "Soubor zkopírován",
+    "copyFailed": "Kopírování se nezdařilo: {{error}}",
+    "loading": "Načítání... Může to chvíli trvat.",
+    "result": "Výsledek"
+  },
+  "toolHeader": {
+    "seeExamples": "Zobrazit příklady"
+  },
+  "toolLayout": {
+    "allToolsTitle": "Všechny {{type}}"
+  },
+  "toolMultiFileResult": {
+    "copied": "Soubor zkopírován",
+    "copyFailed": "Kopírování se nezdařilo: {{error}}",
+    "loading": "Načítání... Může to chvíli trvat.",
+    "result": "Výsledek"
+  },
+  "toolMultipleAudioInput": {
+    "inputTitle": "Vstupní {{type}}",
+    "noFilesSelected": "Žádné soubory nevybrány"
+  },
+  "toolMultiplePdfInput": {
+    "inputTitle": "Vstupní {{type}}",
+    "noFilesSelected": "Žádné soubory nevybrány"
+  },
+  "toolOptions": {
+    "title": "Nastavení nástroje"
+  },
+  "toolTextInput": {
+    "copied": "Text zkopírován",
+    "copyFailed": "Kopírování se nezdařilo: {{error}}",
+    "input": "Vstupní text",
+    "placeholder": "Zadejte svůj text zde..."
+  },
+  "toolTextResult": {
+    "copied": "Text zkopírován",
+    "copyFailed": "Kopírování se nezdařilo: {{error}}",
+    "loading": "Načítání... Může to chvíli trvat.",
+    "result": "Výsledek"
+  },
+  "userTypes": {
+    "developers": "Vývojáři",
+    "generalUsers": "Běžní uživatelé"
+  }
+}

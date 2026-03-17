@@ -1,0 +1,150 @@
+{
+  "checkLeapYears": {
+    "description": "Kontrola, zda je rok přestupný a získání informací o přestupných rocích.",
+    "exampleDescription": "Jedna z našich kamarádek se narodila v přestupném roce 29. února a v důsledku toho má narozeniny pouze jednou za 4 roky. Protože si nikdy nemůžeme vzpomenout, kdy má narozeniny, používáme náš program k vytvoření seznamu nadcházejících přestupných roků.",
+    "exampleTitle": "Najít narozeniny 29. února",
+    "inputTitle": "Vstupní rok",
+    "resultTitle": "Výsledek přestupného roku",
+    "shortDescription": "Kontrola, zda je rok přestupný",
+    "title": "Kontrola přestupných roků",
+    "toolInfo": {
+      "description": "Přestupný rok je rok obsahující jeden další den (29. únor) pro udržení kalendářního roku synchronizovaného s astronomickým rokem. Přestupné roky se vyskytují každé 4 roky, s výjimkou roků dělitelných 100, ale ne 400.",
+      "title": "Co je přestupný rok?"
+    }
+  },
+  "convertDaysToHours": {
+    "addHoursName": "Přidat název hodin",
+    "addHoursNameDescription": "Připojit řetězec 'hodiny' k výstupním hodnotám",
+    "description": "Převod dnů na hodiny s nastavitelnými možnostmi.",
+    "hoursName": "Název hodin",
+    "shortDescription": "Převod dnů na hodiny",
+    "title": "Převést dny na hodiny",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje převádět dny na hodiny. Můžete zadat dny jako čísla nebo s jednotkami a nástroj je převede na hodiny.",
+      "title": "Převést dny na hodiny"
+    }
+  },
+  "convertHoursToDays": {
+    "addDaysName": "Přidat název dnů",
+    "addDaysNameDescription": "Připojit řetězec 'dny' k výstupním hodnotám",
+    "daysName": "Název dnů",
+    "description": "Převod hodin na dny s nastavitelnými možnostmi.",
+    "shortDescription": "Převod hodin na dny",
+    "title": "Převést hodiny na dny",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje převádět hodiny na dny. Můžete zadat hodiny jako čísla nebo s jednotkami a nástroj je převede na dny.",
+      "title": "Převést hodiny na dny"
+    }
+  },
+  "convertSecondsToTime": {
+    "addPadding": "Přidat doplnění",
+    "addPaddingDescription": "Přidat nulové doplnění k hodinám, minutám a sekundám.",
+    "description": "Převod sekund na čitelný časový formát (hodiny:minuty:sekundy). Zadejte počet sekund pro získání formátovaného času.",
+    "shortDescription": "Převod sekund na časový formát",
+    "timePadding": "Doplnění času",
+    "title": "Převést sekundy na čas",
+    "toolInfo": {
+      "title": "Co je {{title}}?"
+    }
+  },
+  "convertTimeToSeconds": {
+    "description": "Převod formátovaného času (HH:MM:SS) na sekundy.",
+    "inputTitle": "Vstupní čas",
+    "resultTitle": "Sekundy",
+    "shortDescription": "Převod časového formátu na sekundy",
+    "title": "Převést čas na sekundy",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje převádět formátované časové řetězce (HH:MM:SS) na sekundy. Je užitečný pro výpočet trvání a časových intervalů.",
+      "title": "Převést čas na sekundy"
+    }
+  },
+  "convertUnixToDate": {
+    "addUtcLabel": "Přidat příponu 'UTC'",
+    "addUtcLabelDescription": "Zobrazit 'UTC' za převedeným datem (pouze pro režim UTC)",
+    "description": "Převod Unix časového razítka na čitelné datum.",
+    "outputOptions": "Nastavení výstupu",
+    "shortDescription": "Převod Unix časového razítka na datum",
+    "title": "Převést Unix na datum",
+    "toolInfo": {
+      "description": "Tento nástroj převádí Unix časové razítko (v sekundách) na čitelný formát data (např. RRRR-MM-DD HH:MM:SS). Podporuje lokální i UTC výstup, což je užitečné pro rychlou interpretaci časových razítek z logů, API nebo systémů používajících Unix čas.",
+      "title": "Převést Unix na datum"
+    },
+    "useLocalTime": "Použít místní čas",
+    "useLocalTimeDescription": "Zobrazit převedené datum v místním časovém pásmu místo UTC",
+    "withLabel": "Nastavení"
+  },
+  "crontabGuru": {
+    "description": "Generování a porozumění cron výrazům. Vytváření cron plánů pro automatizované úlohy a systémové úlohy.",
+    "shortDescription": "Generování a porozumění cron výrazům",
+    "title": "Crontab Guru"
+  },
+  "timeBetweenDates": {
+    "description": "Výpočet časového rozdílu mezi dvěma daty. Získání přesného trvání v dnech, hodinách, minutách a sekundách.",
+    "endDate": "Koncové datum",
+    "endDateTime": "Koncové datum a čas",
+    "endTime": "Koncový čas",
+    "endTimezone": "Koncové časové pásmo",
+    "shortDescription": "Výpočet času mezi dvěma daty",
+    "startDate": "Počáteční datum",
+    "startDateTime": "Počáteční datum a čas",
+    "startTime": "Počáteční čas",
+    "startTimezone": "Počáteční časové pásmo",
+    "title": "Čas mezi daty",
+    "toolInfo": {
+      "description": "Vypočítejte přesný časový rozdíl mezi dvěma daty a časy s podporou různých časových pásem. Tento nástroj poskytuje podrobný rozpis časového rozdílu v různých jednotkách (roky, měsíce, dny, hodiny, minuty a sekundy).",
+      "title": "Kalkulačka času mezi daty"
+    }
+  },
+  "truncateClockTime": {
+    "description": "Zkrácení hodinového času pro odstranění sekund nebo minut. Zaokrouhlení času na nejbližší hodinu, minutu nebo vlastní interval.",
+    "printDroppedComponents": "Zobrazit odstraněné komponenty",
+    "shortDescription": "Zkrácení hodinového času na zadanou přesnost",
+    "timePadding": "Doplnění času",
+    "title": "Zkrátit hodinový čas",
+    "toolInfo": {
+      "title": "Co je {{title}}?"
+    },
+    "truncateMinutesAndSeconds": "Zkrátit minuty a sekundy",
+    "truncateMinutesAndSecondsDescription": "Odstranit obě komponenty – minuty i sekundy – z každého hodinového času.",
+    "truncateOnlySeconds": "Zkrátit pouze sekundy",
+    "truncateOnlySecondsDescription": "Odstranit komponentu sekund z každého hodinového času.",
+    "truncationSide": "Strana zkrácení",
+    "useZeroPadding": "Použít nulové doplnění",
+    "zeroPaddingDescription": "Zajistit, aby všechny časové komponenty měly vždy dvě číslice.",
+    "zeroPrintDescription": "Zobrazit odstraněné části jako nulové hodnoty \"00\".",
+    "zeroPrintTruncatedParts": "Nulově zobrazit zkrácené části"
+  },
+  "convertTimeToDecimal": {
+    "title": "Převést čas na desetinný",
+    "description": "Převod formátovaného časového trvání (HH:MM:SS) na desetinnou hodinovou hodnotu.",
+    "shortDescription": "Převod lidského času na desetinný čas",
+    "longDescription": "Převeďte formátovaný časový řetězec (HH:MM:SS nebo HH:MM) na jeho desetinný hodinový ekvivalent. Hodiny mohou být jakékoli kladné číslo, zatímco minuty a sekundy přijímají hodnoty 0-59. Tato funkce interpretuje hodiny, minuty a sekundy, poté vypočítá celkové trvání jako jednu desetinnou hodnotu. Je užitečná pro sledování produktivity, výpočet mezd, fakturaci podle času nebo jakoukoli práci vyžadující převod čitelného času na numerický formát."
+  },
+  "discordTimestamp": {
+    "name": "Generátor Discord časových razítek",
+    "description": "Převod dat a časů do speciálního formátu časových razítek Discordu, který se automaticky přizpůsobí místnímu časovému pásmu a jazyku každého uživatele",
+    "shortDescription": "Generování Discord časových razítek z dat",
+    "inputTitle": "Vstupní data a časy",
+    "outputTitle": "Discord časová razítka",
+    "formats": {
+      "title": "Formát časového razítka",
+      "description": "Vyberte, jak se časové razítko zobrazí v Discordu – najeďte na každou možnost pro zobrazení příkladu",
+      "short_time": "Krátký čas (př: 14:30)",
+      "long_time": "Dlouhý čas (př: 14:30:00)",
+      "short_date": "Krátké datum (př: 01.01.2025)",
+      "long_date": "Dlouhé datum (př: 1. ledna 2025)",
+      "short_datetime": "Krátké datum a čas (př: 1. ledna 2025 14:30)",
+      "long_datetime": "Dlouhé datum a čas (př: pondělí 1. ledna 2025 14:30)",
+      "relative": "Relativní (př: před 2 hodinami)"
+    },
+    "utc": {
+      "title": "Nastavení vstupu",
+      "label": "Vynutit UTC",
+      "description": "Zacházet se vstupními daty a časy jako s UTC. Zakažte pro použití místního časového pásma"
+    },
+    "toolInfo": {
+      "title": "Co je Discord časové razítko?",
+      "description": "Discord časová razítka jsou speciální syntaxe pro dynamické zobrazování dat a časů. Místo zobrazení pevného času se automaticky převedou na místní časové pásmo a jazyk každého prohlížeče – takže každý vidí správný čas pro svou polohu. Stačí zadat jeden datum a čas na řádek, zvolit formát a vložit výsledky přímo do Discordu."
+    }
+  }
+}

@@ -29,6 +29,7 @@ interface NavbarProps {
   onChangeMode: () => void;
 }
 const languages = [
+  { code: 'cs', label: 'Čeština' },
   { code: 'en', label: 'English' },
   { code: 'de', label: 'Deutsch' },
   { code: 'es', label: 'Español' },
@@ -112,38 +113,13 @@ const Navbar: React.FC<NavbarProps> = ({
       }
     />,
     <Icon
-      onClick={() => window.open('https://discord.gg/SDbbn3hT4b', '_blank')}
+      onClick={() =>
+        window.open('https://github.com/zdenekgreat/omni-tools', '_blank')
+      }
       style={{ cursor: 'pointer' }}
       fontSize={30}
-      icon={'ic:baseline-discord'}
-    />,
-    <iframe
-      src="https://ghbtns.com/github-btn.html?user=iib0011&repo=omni-tools&type=star&count=true&size=large"
-      frameBorder="0"
-      scrolling="0"
-      width="150"
-      height="30"
-      title="GitHub"
-    ></iframe>,
-    <Button
-      onClick={() => {
-        window.open(
-          'https://drive.google.com/file/d/1-r9-rDYnDJic9dnDywKTAsueehIAVp5F/view?usp=sharing',
-          '_blank'
-        );
-      }}
-      sx={{ borderRadius: '100px' }}
-      variant={'contained'}
-      startIcon={
-        <Icon
-          style={{ cursor: 'pointer' }}
-          fontSize={25}
-          icon={'hugeicons:job-search'}
-        />
-      }
-    >
-      {t('navbar.hireMe')}
-    </Button>
+      icon={'mdi:github'}
+    />
   ];
   const drawerList = (
     <List>

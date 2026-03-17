@@ -1,0 +1,327 @@
+{
+  "base64": {
+    "decode": "Base64 Dekódování",
+    "description": "Kódování nebo dekódování textu pomocí Base64.",
+    "encode": "Base64 Kódování",
+    "inputTitle": "Vstupní data",
+    "optionsTitle": "Base64 Nastavení",
+    "resultTitle": "Výsledek",
+    "shortDescription": "Kódování nebo dekódování dat pomocí Base64.",
+    "title": "Base64 Kodér/Dekodér",
+    "toolInfo": {
+      "description": "Base64 je kódovací schéma, které reprezentuje data ve formátu ASCII řetězce překladem do radix-64 reprezentace. Ačkoli může být použito pro kódování řetězců, běžně se používá pro kódování binárních dat pro přenos přes média navržená pro práci s textovými daty.",
+      "title": "Co je Base64?"
+    }
+  },
+  "censor": {
+    "description": "Nástroj pro cenzurování slov v textu. Načtěte text ve vstupním formuláři vlevo, zadejte všechna nežádoucí slova v nastavení a okamžitě získáte cenzurovaný text ve výstupní oblasti.",
+    "shortDescription": "Rychlé maskování nežádoucích slov nebo jejich nahrazení alternativními slovy.",
+    "title": "Cenzura textu"
+  },
+  "createPalindrome": {
+    "description": "Nejjednodušší prohlížečový nástroj pro vytváření palindromů z jakéhokoli textu. Zadejte text a okamžitě jej transformujte na palindrom, který se čte stejně dopředu i dozadu. Ideální pro slovní hry, vytváření symetrických textových vzorů nebo zkoumání lingvistických kuriozit.",
+    "shortDescription": "Vytvoření textu, který se čte stejně dopředu i dozadu",
+    "title": "Vytvořit palindrom"
+  },
+  "extractSubstring": {
+    "description": "Nejjednodušší prohlížečový nástroj pro extrakci podřetězců z textu. Zadejte text a specifikujte počáteční a koncovou pozici pro extrakci požadované části. Ideální pro zpracování dat, analýzu textu nebo extrakci konkrétního obsahu z větších textových bloků.",
+    "shortDescription": "Extrakce části textu mezi zadanými pozicemi",
+    "title": "Extrahovat podřetězec"
+  },
+  "hiddenCharacterDetector": {
+    "analysisOptions": "Nastavení analýzy",
+    "category": "Kategorie",
+    "description": "Detekce skrytých Unicode znaků, zejména RTL Override znaků, které by mohly být použity při útocích.",
+    "foundChars": "Nalezeno {{count}} skrytých znaků:",
+    "inputPlaceholder": "Zadejte text pro kontrolu skrytých znaků...",
+    "inputTitle": "Text k analýze",
+    "invisibleChar": "Neviditelný znak",
+    "invisibleFound": "Nalezeny neviditelné znaky",
+    "longDescription": "Tento nástroj pomáhá detekovat skryté Unicode znaky v textu, zejména RTL (zprava doleva) Override znaky, které mohou být použity při útocích. Dokáže identifikovat neviditelné znaky, znaky s nulovou šířkou a další potenciálně škodlivé Unicode sekvence, které mohou být skryty ve zdánlivě nevinném textu.",
+    "noHiddenChars": "V textu nebyly detekovány žádné skryté znaky.",
+    "optionsDescription": "Konfigurujte, které typy skrytých znaků detekovat a jak zobrazit výsledky.",
+    "position": "Pozice",
+    "rtlAlert": "⚠️ Detekovány RTL Override znaky! Tento text může obsahovat škodlivé skryté znaky.",
+    "rtlFound": "Nalezen RTL Override",
+    "rtlOverride": "RTL Override znak",
+    "rtlWarning": "VAROVÁNÍ: Detekovány RTL Override znaky! Mohou být použity při útocích.",
+    "shortDescription": "Nalezení skrytých Unicode znaků v textu",
+    "summary": "Souhrn analýzy",
+    "title": "Detektor skrytých znaků",
+    "totalChars": "Celkem skrytých znaků: {{count}}",
+    "unicode": "Unicode",
+    "zeroWidthChar": "Znak s nulovou šířkou",
+    "zeroWidthFound": "Nalezeny znaky s nulovou šířkou"
+  },
+  "join": {
+    "blankLinesAndTrailingSpaces": "Prázdné řádky a koncové mezery",
+    "deleteBlankDescription": "Smazat řádky, které neobsahují textové symboly.",
+    "deleteBlankTitle": "Smazat prázdné řádky",
+    "deleteTrailingDescription": "Odstranit mezery a tabulátory na konci řádků.",
+    "deleteTrailingTitle": "Smazat koncové mezery",
+    "description": "Spojení textových částí s přizpůsobitelnými oddělovači.",
+    "inputTitle": "Textové části",
+    "joinCharacterDescription": "Symbol, který spojuje přerušené části textu. (Ve výchozím nastavení mezera.)",
+    "joinCharacterPlaceholder": "Spojovací znak",
+    "resultTitle": "Spojený text",
+    "shortDescription": "Spojení textových prvků se zadaným oddělovačem",
+    "textMergedOptions": "Nastavení sloučení textu",
+    "title": "Spojit text",
+    "toolInfo": {
+      "description": "S tímto nástrojem můžete spojit části textu dohromady. Vezme seznam textových hodnot oddělených novými řádky a sloučí je dohromady. Můžete nastavit znak, který bude umístěn mezi části kombinovaného textu. Můžete také ignorovat všechny prázdné řádky a odstranit mezery a tabulátory na konci všech řádků.",
+      "title": "Co je spojovač textu?"
+    }
+  },
+  "palindrome": {
+    "description": "Nejjednodušší prohlížečový nástroj pro kontrolu, zda je text palindrom. Okamžitě ověřte, zda se váš text čte stejně dopředu i dozadu. Ideální pro slovní hádanky, lingvistickou analýzu nebo ověřování symetrických textových vzorů. Podporuje různé oddělovače a detekci víceslovných palindromů.",
+    "shortDescription": "Kontrola, zda se text čte stejně dopředu i dozadu",
+    "title": "Palindrom"
+  },
+  "passwordGenerator": {
+    "avoidAmbiguous": "Vyhnout se nejednoznačným znakům (i, I, l, 0, O)",
+    "description": "Generování bezpečných náhodných hesel s přizpůsobitelnou délkou a typy znaků. Vyberte si z malých písmen, velkých písmen, číslic a speciálních znaků. Možnost vyhnout se nejednoznačným znakům pro lepší čitelnost.",
+    "includeLowercase": "Zahrnout malá písmena (a-z)",
+    "includeNumbers": "Zahrnout čísla (0-9)",
+    "includeSymbols": "Zahrnout speciální znaky",
+    "includeUppercase": "Zahrnout velká písmena (A-Z)",
+    "lengthDesc": "Délka hesla",
+    "lengthPlaceholder": "např. 12",
+    "optionsTitle": "Nastavení hesla",
+    "resultTitle": "Vygenerované heslo",
+    "shortDescription": "Generování bezpečných náhodných hesel s vlastním nastavením",
+    "title": "Generátor hesel",
+    "toolInfo": {
+      "description": "Tento nástroj generuje bezpečná náhodná hesla na základě vámi vybraných kritérií. Můžete přizpůsobit délku, zahrnout nebo vyloučit různé typy znaků a vyhnout se nejednoznačným znakům pro lepší čitelnost. Ideální pro vytváření silných hesel pro účty, aplikace nebo jakékoli bezpečnostní potřeby.",
+      "title": "O generátoru hesel"
+    }
+  },
+  "quote": {
+    "allowDoubleQuotation": "Povolit dvojité uvozovky",
+    "description": "Přidání uvozovek kolem textu s přizpůsobitelnými možnostmi.",
+    "inputTitle": "Vstupní text",
+    "leftQuoteDescription": "Levý uvozovkový znak(y)",
+    "processAsMultiLine": "Zpracovat jako víceřádkový text",
+    "quoteEmptyLines": "Uvozovat prázdné řádky",
+    "quoteOptions": "Nastavení uvozovek",
+    "resultTitle": "Text s uvozovkami",
+    "rightQuoteDescription": "Pravý uvozovkový znak(y)",
+    "shortDescription": "Přidání uvozovek kolem textu v různých stylech",
+    "title": "Uvozovač textu",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje přidat uvozovky kolem textu. Můžete zvolit různé uvozovkové znaky, zpracovat víceřádkový text a ovládat zpracování prázdných řádků. Je užitečný pro přípravu textu pro programování, formátování dat nebo vytváření stylizovaného textu.",
+      "title": "Uvozovač textu"
+    }
+  },
+  "randomizeCase": {
+    "description": "Nejjednodušší prohlížečový nástroj pro náhodnou změnu velikosti písmen v textu. Zadejte text a okamžitě jej transformujte s náhodně velkými a malými písmeny. Ideální pro vytváření unikátních textových efektů, testování rozlišování velkých a malých písmen nebo generování různorodých textových vzorů.",
+    "shortDescription": "Náhodná změna velikosti písmen v textu",
+    "title": "Náhodná velikost písmen"
+  },
+  "removeDuplicateLines": {
+    "description": "Načtěte text ve vstupním formuláři vlevo a okamžitě získáte text bez duplicitních řádků ve výstupní oblasti. Výkonný, bezplatný a rychlý. Načtěte řádky textu – získejte unikátní řádky textu.",
+    "shortDescription": "Rychlé smazání všech opakujících se řádků z textu",
+    "title": "Odstranit duplicitní řádky"
+  },
+  "repeat": {
+    "delimiterDescription": "Oddělovač pro výstupní kopie.",
+    "delimiterPlaceholder": "Oddělovač",
+    "description": "Opakování textu vícekrát s přizpůsobitelnými oddělovači.",
+    "inputTitle": "Vstupní text",
+    "numberPlaceholder": "Počet",
+    "repeatAmountDescription": "Počet opakování.",
+    "repetitionsDelimiter": "Oddělovač opakování",
+    "resultTitle": "Opakovaný text",
+    "shortDescription": "Opakování textu vícekrát",
+    "textRepetitions": "Opakování textu",
+    "title": "Opakovat text",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje opakovat zadaný text vícekrát s volitelným oddělovačem.",
+      "title": "Opakovat text"
+    }
+  },
+  "reverse": {
+    "description": "Nejjednodušší prohlížečový nástroj pro obrácení textu. Zadejte jakýkoli text a okamžitě jej získejte obrácený, znak po znaku. Ideální pro vytváření zrcadlového textu, analýzu palindromů nebo hraní si s textovými vzory. Zachovává mezery a speciální znaky při obrácení.",
+    "inputTitle": "Text k obrácení",
+    "processMultiLine": "Zpracovat víceřádkový text",
+    "processMultiLineDescription": "Každý řádek bude obrácen samostatně",
+    "resultTitle": "Obrácený text",
+    "reversalOptions": "Nastavení obrácení",
+    "shortDescription": "Obrácení jakéhokoli textu znak po znaku",
+    "skipEmptyLines": "Přeskočit prázdné řádky",
+    "skipEmptyLinesDescription": "Prázdné řádky budou odstraněny z výstupu",
+    "title": "Obrátit",
+    "trimWhitespace": "Oříznout mezery",
+    "trimWhitespaceDescription": "Odstranit úvodní a koncové mezery z každého řádku"
+  },
+  "rot13": {
+    "description": "Kódování nebo dekódování textu pomocí šifry ROT13.",
+    "inputTitle": "Vstupní text",
+    "resultTitle": "Výsledek ROT13",
+    "shortDescription": "Kódování nebo dekódování textu pomocí šifry ROT13.",
+    "title": "ROT13 Kodér/Dekodér",
+    "toolInfo": {
+      "description": "ROT13 (rotace o 13 pozic) je jednoduchá substituční šifra, která nahrazuje písmeno 13. písmenem za ním v abecedě. ROT13 je speciální případ Caesarovy šifry vyvinuté ve starověkém Římě. Protože anglická abeceda má 26 písmen, ROT13 je svou vlastní inverzí; to znamená, že pro zrušení ROT13 se použije stejný algoritmus, takže stejnou akci lze použít pro kódování i dekódování.",
+      "title": "Co je ROT13?"
+    }
+  },
+  "rotate": {
+    "description": "Rotace znaků v textu o zadaný počet pozic.",
+    "inputTitle": "Vstupní text",
+    "processAsMultiLine": "Zpracovat jako víceřádkový text (rotovat každý řádek zvlášť)",
+    "resultTitle": "Rotovaný text",
+    "rotateLeft": "Rotovat vlevo",
+    "rotateRight": "Rotovat vpravo",
+    "rotationOptions": "Nastavení rotace",
+    "shortDescription": "Posun znaků v textu o pozice.",
+    "stepDescription": "Počet pozic pro rotaci",
+    "title": "Rotovat text",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje rotovat znaky v řetězci o zadaný počet pozic. Můžete rotovat doleva nebo doprava a zpracovat víceřádkový text rotací každého řádku zvlášť. Rotace řetězce je užitečná pro jednoduché textové transformace, vytváření vzorů nebo implementaci základních šifrovacích technik.",
+      "title": "Rotace řetězce"
+    }
+  },
+  "split": {
+    "charAfterChunkDescription": "Znak za každým blokem",
+    "charBeforeChunkDescription": "Znak před každým blokem",
+    "chunksDescription": "Počet bloků stejné délky na výstupu.",
+    "chunksTitle": "Použít počet bloků",
+    "description": "Nejjednodušší prohlížečový nástroj pro rozdělení textu. Zadejte text a specifikujte oddělovač pro jeho rozdělení na více částí. Ideální pro zpracování dat, manipulaci s textem nebo extrakci konkrétního obsahu z větších textových bloků.",
+    "lengthDescription": "Počet znaků, které budou umístěny do každého výstupního bloku.",
+    "lengthTitle": "Použít délku pro rozdělení",
+    "outputSeparatorDescription": "Znak, který bude umístěn mezi rozdělenými bloky. (Ve výchozím nastavení nový řádek \"\\n\".)",
+    "outputSeparatorOptions": "Nastavení výstupního oddělovače",
+    "regexDescription": "Regulární výraz, který bude použit k rozdělení textu na části. (Ve výchozím nastavení vícenásobné mezery.)",
+    "regexTitle": "Použít regulární výraz pro rozdělení",
+    "resultTitle": "Výsledek rozdělení",
+    "shortDescription": "Rozdělení textu na více částí pomocí oddělovače",
+    "splitSeparatorOptions": "Nastavení oddělovače pro rozdělení",
+    "symbolDescription": "Znak, který bude použit k rozdělení textu na části. (Ve výchozím nastavení mezera.)",
+    "symbolTitle": "Použít symbol pro rozdělení",
+    "title": "Rozdělit"
+  },
+  "statistic": {
+    "characterFrequencyAnalysis": "Analýza četnosti znaků",
+    "characterFrequencyAnalysisDescription": "Spočítání, jak často se každý znak vyskytuje v textu",
+    "delimitersOptions": "Nastavení oddělovačů",
+    "description": "Analýza textu a generování komplexních statistik.",
+    "includeEmptyLines": "Zahrnout prázdné řádky",
+    "includeEmptyLinesDescription": "Zahrnout prázdné řádky při počítání řádků",
+    "inputTitle": "Vstupní text",
+    "resultTitle": "Statistiky textu",
+    "sentenceDelimitersDescription": "Zadejte vlastní znaky používané k oddělování vět ve vašem jazyce (oddělené čárkou) nebo ponechte prázdné pro výchozí nastavení.",
+    "sentenceDelimitersPlaceholder": "např. ., !, ?, ...",
+    "shortDescription": "Získání statistik o vašem textu",
+    "statisticsOptions": "Nastavení statistik",
+    "title": "Statistiky textu",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje analyzovat text a generovat komplexní statistiky včetně počtu znaků, slov, řádků a analýzy četnosti znaků a slov.",
+      "title": "Co je {{title}}?"
+    },
+    "wordDelimitersDescription": "Zadejte vlastní regulární výraz pro počítání slov nebo ponechte prázdné pro výchozí nastavení.",
+    "wordDelimitersPlaceholder": "např. \\s.,;:!?\"«»()…",
+    "wordFrequencyAnalysis": "Analýza četnosti slov",
+    "wordFrequencyAnalysisDescription": "Spočítání, jak často se každé slovo vyskytuje v textu"
+  },
+  "textReplacer": {
+    "description": "Nahrazení textových vzorů novým obsahem.",
+    "findPatternInText": "Najít tento vzor v textu",
+    "findPatternUsingRegexp": "Najít vzor pomocí regulárního výrazu",
+    "inputTitle": "Text k nahrazení",
+    "newTextPlaceholder": "Nový text",
+    "regexpDescription": "Zadejte regulární výraz, který chcete nahradit.",
+    "replacePatternDescription": "Zadejte vzor, který se použije pro nahrazení.",
+    "replaceText": "Nahradit text",
+    "resultTitle": "Text s nahrazeními",
+    "searchPatternDescription": "Zadejte textový vzor, který chcete nahradit.",
+    "searchText": "Hledat text",
+    "shortDescription": "Rychlé nahrazení textu ve vašem obsahu",
+    "title": "Nahrazovač textu",
+    "toolInfo": {
+      "description": "Snadno nahraďte konkrétní text ve vašem obsahu tímto jednoduchým prohlížečovým nástrojem. Stačí zadat text, nastavit text, který chcete nahradit, a náhradní hodnotu, a okamžitě získáte aktualizovanou verzi.",
+      "title": "Nahrazovač textu"
+    }
+  },
+  "toMorse": {
+    "dashSymbolDescription": "Symbol, který bude odpovídat čárce v Morseově kódu.",
+    "description": "Převod textu na Morseovu abecedu.",
+    "dotSymbolDescription": "Symbol, který bude odpovídat tečce v Morseově kódu.",
+    "longSignal": "Dlouhý signál",
+    "resultTitle": "Morseův kód",
+    "shortDescription": "Rychlé zakódování textu do Morseovy abecedy",
+    "shortSignal": "Krátký signál",
+    "title": "Text na Morseovku"
+  },
+  "truncate": {
+    "addTruncationIndicator": "Přidat indikátor zkrácení",
+    "charactersPlaceholder": "Znaky",
+    "description": "Zkrácení textu na zadanou délku.",
+    "indicatorDescription": "Znaky, které se přidají na konec (nebo začátek) textu. Poznámka: Počítají se do délky.",
+    "inputTitle": "Vstupní text",
+    "leftSideDescription": "Odstranění znaků ze začátku textu.",
+    "leftSideTruncation": "Zkrácení zleva",
+    "lengthAndLines": "Délka a řádky",
+    "lineByLineDescription": "Zkrácení každého řádku zvlášť.",
+    "lineByLineTruncating": "Zkrácení řádek po řádku",
+    "maxLengthDescription": "Počet znaků, které zůstanou v textu.",
+    "numberPlaceholder": "Číslo",
+    "resultTitle": "Zkrácený text",
+    "rightSideDescription": "Odstranění znaků z konce textu.",
+    "rightSideTruncation": "Zkrácení zprava",
+    "shortDescription": "Zkrácení textu na zadanou délku",
+    "suffixAndAffix": "Přípona a předpona",
+    "title": "Zkrátit text",
+    "toolInfo": {
+      "description": "Načtěte text ve vstupním formuláři vlevo a automaticky získáte zkrácený text vpravo.",
+      "title": "Zkrátit text"
+    },
+    "truncationSide": "Strana zkrácení"
+  },
+  "uppercase": {
+    "description": "Převod textu na velká písmena.",
+    "inputTitle": "Vstupní text",
+    "resultTitle": "Text velkými písmeny",
+    "shortDescription": "Převod textu na velká písmena",
+    "title": "Převést na velká písmena"
+  },
+  "urlDecode": {
+    "inputTitle": "Vstupní řetězec (URL-kódovaný)",
+    "resultTitle": "Výstupní řetězec",
+    "toolInfo": {
+      "description": "Načtěte řetězec a automaticky se dekóduje z URL kódování.",
+      "longDescription": "Tento nástroj dekóduje dříve URL-kódovaný řetězec. URL dekódování je inverzní operace URL kódování. Všechny procentuálně kódované znaky se dekódují na znaky, kterým rozumíte. Některé z nejznámějších procentuálně kódovaných hodnot jsou %20 pro mezeru, %3a pro dvojtečku, %2f pro lomítko a %3f pro otazník.",
+      "shortDescription": "Rychlé dekódování URL řetězce.",
+      "title": "Dekodér URL řetězce"
+    }
+  },
+  "urlEncode": {
+    "encodingOption": {
+      "nonSpecialCharDescription": "Pokud je vybráno, všechny znaky ve vstupním řetězci budou převedeny na URL kódování (nejen speciální).",
+      "nonSpecialCharPlaceholder": "Kódovat nespeciální znaky",
+      "title": "Nastavení kódování"
+    },
+    "inputTitle": "Vstupní řetězec",
+    "resultTitle": "URL-kódovaný řetězec",
+    "toolInfo": {
+      "description": "Načtěte řetězec a automaticky se zakóduje do URL formátu.",
+      "longDescription": "Tento nástroj kóduje řetězec do URL formátu. Speciální URL znaky se převedou na procentuální kódování. Toto kódování se nazývá procentuální kódování, protože číselná hodnota každého znaku se převede na znak procenta následovaný dvoucifernou hexadecimální hodnotou.",
+      "shortDescription": "Rychlé URL kódování řetězce.",
+      "title": "Kodér URL řetězce"
+    }
+  },
+  "unicode": {
+    "title": "Unicode Kodér / Dekodér",
+    "inputTitle": "Vstup",
+    "resultTitle": "Zpracovaný výstup",
+    "optionsTitle": "Režim",
+    "caseOptionsTitle": "Nastavení velikosti písmen",
+    "encode": "Kódovat",
+    "decode": "Dekódovat",
+    "uppercase": "Hexadecimální velká písmena",
+    "description": "Převod textu na Unicode escape sekvence nebo jejich dekódování zpět na čitelný text.",
+    "shortDescription": "Kódování nebo dekódování textu pomocí Unicode escape sekvencí.",
+    "toolInfo": {
+      "title": "Unicode Kodér / Dekodér",
+      "description": "Tento nástroj umožňuje převést prostý text na Unicode escape sekvence (např. \\uXXXX) a dekódovat Unicode escape sekvence zpět na standardní text. Můžete také zvolit, zda bude hexadecimální výstup formátován velkými nebo malými písmeny při kódování."
+    }
+  }
+}

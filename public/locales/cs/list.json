@@ -1,0 +1,258 @@
+{
+  "duplicate": {
+    "concatenate": "Zřetězit",
+    "concatenateDescription": "Zřetězit kopie (pokud není zaškrtnuto, položky budou prokládány)",
+    "copyDescription": "Počet kopií (může být desetinné číslo)",
+    "description": "Nejjednodušší prohlížečový nástroj pro duplikování položek seznamu. Zadejte svůj seznam a specifikujte kritéria duplikování pro vytvoření kopií položek. Ideální pro rozšíření dat, testování nebo vytváření opakujících se vzorů.",
+    "duplicationOptions": "Nastavení duplikování",
+    "error": "Chyba",
+    "example1Description": "Tento příklad ukazuje, jak duplikovat seznam slov.",
+    "example1Title": "Jednoduché duplikování",
+    "example2Description": "Tento příklad ukazuje, jak duplikovat seznam v opačném pořadí.",
+    "example2Title": "Duplikování v opačném pořadí",
+    "example3Description": "Tento příklad ukazuje, jak prokládat položky místo zřetězení.",
+    "example3Title": "Prokládání položek",
+    "example4Description": "Tento příklad ukazuje, jak duplikovat seznam s desetinným počtem kopií.",
+    "example4Title": "Desetinné duplikování",
+    "examples": {
+      "fractional": {
+        "description": "Tento příklad ukazuje, jak duplikovat seznam s desetinným počtem kopií.",
+        "title": "Desetinné duplikování"
+      },
+      "interweave": {
+        "description": "Tento příklad ukazuje, jak prokládat položky místo zřetězení.",
+        "title": "Prokládání položek"
+      },
+      "reverse": {
+        "description": "Tento příklad ukazuje, jak duplikovat seznam v opačném pořadí.",
+        "title": "Duplikování v opačném pořadí"
+      },
+      "simple": {
+        "description": "Tento příklad ukazuje, jak duplikovat seznam slov.",
+        "title": "Jednoduché duplikování"
+      }
+    },
+    "inputTitle": "Vstupní seznam",
+    "joinSeparatorDescription": "Oddělovač pro spojení duplikovaného seznamu",
+    "resultTitle": "Duplikovaný seznam",
+    "reverse": "Obrátit",
+    "reverseDescription": "Obrátit duplikované položky",
+    "shortDescription": "Duplikování položek seznamu se zadanými kritérii",
+    "splitByRegex": "Rozdělit regulárním výrazem",
+    "splitBySymbol": "Rozdělit symbolem",
+    "splitOptions": "Nastavení rozdělení",
+    "splitSeparatorDescription": "Oddělovač pro rozdělení seznamu",
+    "title": "Duplikovat",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje duplikovat položky v seznamu. Můžete zadat počet kopií (včetně desetinných hodnot), ovládat zda budou položky zřetězeny nebo prokládány, a dokonce obrátit duplikované položky. Je užitečný pro vytváření opakujících se vzorů, generování testovacích dat nebo rozšiřování seznamů s předvídatelným obsahem.",
+      "title": "Duplikování seznamu"
+    },
+    "unknownError": "Nastala neznámá chyba",
+    "validation": {
+      "copyMustBeNumber": "Počet kopií musí být číslo",
+      "copyMustBePositive": "Počet kopií musí být kladný",
+      "copyRequired": "Počet kopií je povinný",
+      "joinSeparatorRequired": "Oddělovač pro spojení je povinný",
+      "separatorRequired": "Oddělovač je povinný"
+    }
+  },
+  "findMostPopular": {
+    "description": "Nejjednodušší prohlížečový nástroj pro nalezení nejpopulárnějších položek v seznamu. Zadejte svůj seznam a okamžitě získejte položky, které se vyskytují nejčastěji. Ideální pro analýzu dat, identifikaci trendů nebo nalezení společných prvků.",
+    "displayFormatDescription": "Jak zobrazit nejpopulárnější položky seznamu?",
+    "displayOptions": {
+      "count": "Zobrazit počet položek",
+      "percentage": "Zobrazit procento položek",
+      "total": "Zobrazit celkový počet položek"
+    },
+    "extractListItems": "Jak extrahovat položky seznamu?",
+    "ignoreItemCase": "Ignorovat velikost písmen",
+    "ignoreItemCaseDescription": "Porovnat všechny položky seznamu malými písmeny.",
+    "inputTitle": "Vstupní seznam",
+    "itemComparison": "Porovnání položek",
+    "outputFormat": "Formát výstupu nejpopulárnějších položek",
+    "removeEmptyItems": "Odstranit prázdné položky",
+    "removeEmptyItemsDescription": "Ignorovat prázdné položky při porovnání.",
+    "resultTitle": "Nejpopulárnější položky",
+    "shortDescription": "Nalezení nejčastěji se vyskytujících položek",
+    "sortOptions": {
+      "alphabetic": "Řadit abecedně",
+      "count": "Řadit podle počtu"
+    },
+    "sortingMethodDescription": "Vyberte metodu řazení.",
+    "splitOperators": {
+      "regex": {
+        "description": "Oddělit vstupní položky seznamu regulárním výrazem.",
+        "title": "Použít regulární výraz pro rozdělení"
+      },
+      "symbol": {
+        "description": "Oddělit vstupní položky seznamu znakem.",
+        "title": "Použít symbol pro rozdělení"
+      }
+    },
+    "splitSeparatorDescription": "Nastavte oddělovací symbol nebo regulární výraz.",
+    "title": "Najít nejpopulárnější",
+    "trimItems": "Oříznout položky seznamu",
+    "trimItemsDescription": "Odstranit úvodní a koncové mezery před porovnáním položek"
+  },
+  "findUnique": {
+    "caseSensitiveItems": "Rozlišovat velikost písmen",
+    "caseSensitiveItemsDescription": "Zobrazit položky s různou velikostí písmen jako unikátní prvky v seznamu.",
+    "delimiterDescription": "Nastavte oddělovací symbol nebo regulární výraz.",
+    "description": "Nejjednodušší prohlížečový nástroj pro nalezení unikátních položek v seznamu. Zadejte svůj seznam a okamžitě získejte všechny unikátní hodnoty s odstraněnými duplikáty. Ideální pro čištění dat, odstraňování duplikátů nebo nalezení odlišných prvků.",
+    "findAbsolutelyUniqueItems": "Najít absolutně unikátní položky",
+    "findAbsolutelyUniqueItemsDescription": "Zobrazit pouze ty položky seznamu, které existují v jediné kopii.",
+    "inputListDelimiter": "Oddělovač vstupního seznamu",
+    "inputTitle": "Vstupní seznam",
+    "outputListDelimiter": "Oddělovač výstupního seznamu",
+    "resultTitle": "Unikátní položky",
+    "shortDescription": "Nalezení unikátních položek v seznamu",
+    "skipEmptyItems": "Přeskočit prázdné položky",
+    "skipEmptyItemsDescription": "Nezahrnovat prázdné položky seznamu do výstupu.",
+    "title": "Najít unikátní",
+    "trimItems": "Oříznout položky seznamu",
+    "trimItemsDescription": "Odstranit úvodní a koncové mezery před porovnáním položek.",
+    "uniqueItemOptions": "Nastavení unikátních položek"
+  },
+  "chunk": {
+    "deleteEmptyItems": "Smazat prázdné položky",
+    "deleteEmptyItemsDescription": "Ignorovat prázdné položky a vyloučit je z výsledku.",
+    "description": "Rozdělení seznamu na po sobě jdoucí bloky pevné velikosti. Tento nástroj rozdělí vstupní položky, seskupí je postupně, volitelně doplní neúplné bloky a formátuje výstup pomocí vlastních oddělovačů a obalů.",
+    "emptyItemsAndPadding": "Prázdné položky a doplnění",
+    "groupNumberDescription": "Počet položek ve skupině",
+    "groupSeparatorDescription": "Oddělovač umístěný mezi skupinami",
+    "groupSizeAndSeparators": "Velikost skupiny a formát výstupu",
+    "inputItemSeparator": "Oddělovač vstupních položek",
+    "inputTitle": "Vstupní seznam",
+    "itemSeparatorDescription": "Oddělovač umístěný mezi položkami uvnitř skupiny",
+    "leftWrapDescription": "Symbol přidaný před každou skupinu",
+    "padNonFullGroups": "Doplnit neúplné skupiny",
+    "padNonFullGroupsDescription": "Doplnit poslední skupinu, pokud má méně položek než je požadováno.",
+    "paddingCharDescription": "Znak nebo hodnota použitá k doplnění neúplných skupin.",
+    "resultTitle": "Seskupený výstup",
+    "rightWrapDescription": "Symbol přidaný za každou skupinu",
+    "shortDescription": "Rozdělení seznamu na bloky pevné velikosti",
+    "splitOperators": {
+      "regex": {
+        "description": "Rozdělit vstupní položky pomocí regulárního výrazu.",
+        "title": "Použít regulární výraz pro rozdělení"
+      },
+      "symbol": {
+        "description": "Rozdělit vstupní položky pomocí jednoho znaku.",
+        "title": "Použít symbol pro rozdělení"
+      }
+    },
+    "splitSeparatorDescription": "Oddělovací symbol nebo regulární výraz použitý k rozdělení vstupních položek.",
+    "title": "Rozdělit seznam na bloky"
+  },
+  "reverse": {
+    "description": "Toto je velmi jednoduchá prohlížečová aplikace, která vypíše všechny položky seznamu v opačném pořadí. Vstupní položky mohou být odděleny jakýmkoli symbolem a můžete také změnit oddělovač obráceného seznamu.",
+    "inputTitle": "Vstupní seznam",
+    "itemSeparator": "Oddělovač položek",
+    "itemSeparatorDescription": "Nastavte oddělovací symbol nebo regulární výraz.",
+    "outputListOptions": "Nastavení výstupního seznamu",
+    "outputSeparatorDescription": "Oddělovač položek výstupního seznamu.",
+    "resultTitle": "Obrácený seznam",
+    "shortDescription": "Rychlé obrácení seznamu",
+    "splitOperators": {
+      "regex": {
+        "description": "Oddělit vstupní položky seznamu regulárním výrazem.",
+        "title": "Použít regulární výraz pro rozdělení"
+      },
+      "symbol": {
+        "description": "Oddělit vstupní položky seznamu znakem.",
+        "title": "Použít symbol pro rozdělení"
+      }
+    },
+    "splitterMode": "Režim rozdělovače",
+    "title": "Obrátit",
+    "toolInfo": {
+      "description": "S tímto nástrojem můžete obrátit pořadí položek v seznamu. Nástroj nejprve rozdělí vstupní seznam na jednotlivé položky a poté je iteruje od poslední položky k první, přičemž každou položku vypisuje na výstup. Vstupní seznam může obsahovat cokoli, co lze reprezentovat jako textová data, včetně číslic, čísel, řetězců, slov, vět atd. Oddělovač vstupních položek může být také regulární výraz.",
+      "title": "Co je obracovač seznamu?"
+    }
+  },
+  "rotate": {
+    "description": "Nejjednodušší prohlížečový nástroj pro rotaci položek seznamu. Zadejte svůj seznam a specifikujte počet pozic pro posun položek. Ideální pro manipulaci s daty, kruhové posuny nebo přeuspořádání seznamů.",
+    "shortDescription": "Rotace položek seznamu o zadaný počet pozic",
+    "title": "Rotovat"
+  },
+  "shuffle": {
+    "delimiterDescription": "Nastavte oddělovací symbol nebo regulární výraz.",
+    "description": "Nejjednodušší prohlížečový nástroj pro zamíchání položek seznamu. Zadejte svůj seznam a okamžitě získejte náhodně zamíchanou verzi. Ideální pro vytváření rozmanitosti, testování náhodnosti nebo promíchání uspořádaných dat.",
+    "inputListSeparator": "Oddělovač vstupního seznamu",
+    "inputTitle": "Vstupní seznam",
+    "joinSeparatorDescription": "Použít tento oddělovač v zamíchaném seznamu.",
+    "outputLengthDescription": "Zobrazit tento počet náhodných položek",
+    "resultTitle": "Zamíchaný seznam",
+    "shortDescription": "Náhodné zamíchání pořadí položek seznamu",
+    "shuffledListLength": "Délka zamíchaného seznamu",
+    "shuffledListSeparator": "Oddělovač zamíchaného seznamu",
+    "title": "Zamíchat"
+  },
+  "sort": {
+    "caseSensitive": "Řazení s rozlišováním velikosti písmen",
+    "caseSensitiveDescription": "Řadit velká a malá písmena zvlášť. Velká písmena předcházejí malým ve vzestupném seznamu. (Funguje pouze v abecedním režimu řazení.)",
+    "description": "Nejjednodušší prohlížečový nástroj pro řazení položek seznamu. Zadejte svůj seznam a specifikujte kritéria řazení pro uspořádání položek ve vzestupném nebo sestupném pořadí. Ideální pro organizaci dat, zpracování textu nebo vytváření uspořádaných seznamů.",
+    "inputItemSeparator": "Oddělovač vstupních položek",
+    "inputTitle": "Vstupní seznam",
+    "joinSeparatorDescription": "Použít tento symbol jako spojovač mezi položkami v seřazeném seznamu.",
+    "orderDescription": "Vyberte pořadí řazení.",
+    "orderOptions": {
+      "decreasing": "Sestupné pořadí",
+      "increasing": "Vzestupné pořadí"
+    },
+    "removeDuplicates": "Odstranit duplikáty",
+    "removeDuplicatesDescription": "Smazat duplicitní položky seznamu.",
+    "resultTitle": "Seřazený seznam",
+    "shortDescription": "Řazení položek seznamu v zadaném pořadí",
+    "sortMethod": "Metoda řazení",
+    "sortMethodDescription": "Vyberte metodu řazení.",
+    "sortOptions": {
+      "alphabetic": "Řadit abecedně",
+      "length": "Řadit podle délky",
+      "numeric": "Řadit číselně"
+    },
+    "sortedItemProperties": "Vlastnosti seřazených položek",
+    "splitOperators": {
+      "regex": {
+        "description": "Oddělit vstupní položky seznamu regulárním výrazem.",
+        "title": "Použít regulární výraz pro rozdělení"
+      },
+      "symbol": {
+        "description": "Oddělit vstupní položky seznamu znakem.",
+        "title": "Použít symbol pro rozdělení"
+      }
+    },
+    "splitSeparatorDescription": "Nastavte oddělovací symbol nebo regulární výraz.",
+    "title": "Seřadit"
+  },
+  "truncate": {
+    "description": "Nejjednodušší prohlížečový nástroj pro zkrácení seznamů. Zadejte svůj seznam a specifikujte maximální počet položek, které chcete zachovat. Ideální pro zpracování dat, správu seznamů nebo omezení délky obsahu.",
+    "shortDescription": "Zkrácení seznamu na zadaný počet položek",
+    "title": "Zkrátit"
+  },
+  "unwrap": {
+    "description": "Nejjednodušší prohlížečový nástroj pro rozbalení položek seznamu. Zadejte zabalený seznam a specifikujte kritéria rozbalení pro zploštění organizovaných položek. Ideální pro zpracování dat, manipulaci s textem nebo extrakci obsahu ze strukturovaných seznamů.",
+    "shortDescription": "Rozbalení položek seznamu ze strukturovaného formátu",
+    "title": "Rozbalit"
+  },
+  "wrap": {
+    "description": "Přidání textu před a za každou položku seznamu.",
+    "inputTitle": "Vstupní seznam",
+    "joinSeparatorDescription": "Oddělovač pro spojení zabaleného seznamu",
+    "leftTextDescription": "Text přidaný před každou položku",
+    "removeEmptyItems": "Odstranit prázdné položky",
+    "resultTitle": "Zabalený seznam",
+    "rightTextDescription": "Text přidaný za každou položku",
+    "shortDescription": "Zabalení položek seznamu se zadanými kritérii",
+    "splitByRegex": "Rozdělit regulárním výrazem",
+    "splitBySymbol": "Rozdělit symbolem",
+    "splitOptions": "Nastavení rozdělení",
+    "splitSeparatorDescription": "Oddělovač pro rozdělení seznamu",
+    "title": "Zabalit",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje přidat text před a za každou položku v seznamu. Můžete zadat různý text pro levou a pravou stranu a ovládat zpracování seznamu. Je užitečný pro přidávání uvozovek, závorek nebo jiného formátování k položkám seznamu, přípravu dat pro různé formáty nebo vytváření strukturovaného textu.",
+      "title": "Zabalení seznamu"
+    },
+    "wrapOptions": "Nastavení zabalení"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "arithmeticSequence": {
+    "commonDifferenceDescription": "Společná diference mezi členy (d)",
+    "description": "Generování aritmetických posloupností s nastavitelnými parametry.",
+    "firstTermDescription": "První člen posloupnosti (a₁)",
+    "numberOfTermsDescription": "Počet členů k vygenerování (n)",
+    "outputFormat": "Formát výstupu",
+    "resultTitle": "Vygenerovaná posloupnost",
+    "separatorDescription": "Oddělovač mezi členy",
+    "sequenceParameters": "Parametry posloupnosti",
+    "shortDescription": "Generování aritmetických posloupností",
+    "title": "Aritmetická posloupnost",
+    "toolInfo": {
+      "description": "Aritmetická posloupnost je posloupnost čísel, kde rozdíl mezi každými dvěma po sobě jdoucími členy je konstantní. Tato konstantní diference se nazývá společná diference. Za předpokladu znalosti prvního členu (a₁) a společné diference (d) lze každý člen najít přičtením společné diference k předchozímu členu.",
+      "title": "Co je aritmetická posloupnost?"
+    }
+  },
+  "generate": {
+    "arithmeticSequenceOption": "Nastavení aritmetické posloupnosti",
+    "description": "Generování posloupnosti čísel s nastavitelnými parametry.",
+    "numberOfElementsDescription": "Počet prvků v posloupnosti.",
+    "resultTitle": "Vygenerovaná čísla",
+    "separator": "Oddělovač",
+    "separatorDescription": "Oddělit prvky v aritmetické posloupnosti tímto znakem.",
+    "shortDescription": "Generování náhodných čísel v zadaných rozsazích",
+    "startSequenceDescription": "Začít posloupnost od tohoto čísla.",
+    "stepDescription": "Zvýšit každý prvek o tuto hodnotu",
+    "title": "Generovat",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje generovat posloupnost čísel s nastavitelnými parametry. Můžete zadat počáteční hodnotu, velikost kroku a počet prvků.",
+      "title": "Generovat čísla"
+    }
+  },
+  "ohmsLaw": {
+    "description": "Výpočet napětí, proudu a odporu",
+    "longDescription": "Tato kalkulačka aplikuje Ohmův zákon (V = I × R) pro určení kteréhokoli ze tří elektrických parametrů, když jsou známy zbylé dva. Ohmův zákon je základní princip v elektrotechnice, který popisuje vztah mezi napětím (V), proudem (I) a odporem (R).",
+    "shortDescription": "Výpočet napětí, proudu nebo odporu v elektrických obvodech pomocí Ohmova zákona",
+    "title": "Ohmův zákon"
+  },
+  "randomNumberGenerator": {
+    "description": "Generování náhodných čísel v zadaném rozsahu s nastavitelnými možnostmi.",
+    "error": {
+      "generationFailed": "Generování náhodných čísel se nezdařilo. Zkontrolujte vstupní parametry."
+    },
+    "info": {
+      "description": "Generátor náhodných čísel vytváří nepředvídatelná čísla v zadaném rozsahu. Tento nástroj používá kryptograficky bezpečné generování náhodných čísel pro zajištění skutečně náhodných výsledků. Užitečné pro simulace, hry, statistické vzorkování a testovací scénáře.",
+      "title": "Co je generátor náhodných čísel?"
+    },
+    "longDescription": "Generujte náhodná čísla v zadaném rozsahu s možnostmi pro celá nebo desetinná čísla, povolení nebo zakázání duplikátů a řazení výsledků. Ideální pro simulace, testování, hry a statistickou analýzu.",
+    "options": {
+      "generation": {
+        "allowDecimals": {
+          "description": "Generovat desetinná čísla místo celých",
+          "title": "Povolit desetinná čísla"
+        },
+        "allowDuplicates": {
+          "description": "Povolit výskyt stejného čísla vícekrát",
+          "title": "Povolit duplikáty"
+        },
+        "countDescription": "Počet náhodných čísel k vygenerování (1-10 000)",
+        "sortResults": {
+          "description": "Seřadit vygenerovaná čísla ve vzestupném pořadí",
+          "title": "Seřadit výsledky"
+        },
+        "title": "Nastavení generování"
+      },
+      "output": {
+        "separatorDescription": "Znak(y) pro oddělení vygenerovaných čísel",
+        "title": "Nastavení výstupu"
+      },
+      "range": {
+        "maxDescription": "Maximální hodnota (včetně)",
+        "minDescription": "Minimální hodnota (včetně)",
+        "title": "Nastavení rozsahu"
+      }
+    },
+    "result": {
+      "count": "Počet",
+      "hasDuplicates": "Obsahuje duplikáty",
+      "isSorted": "Seřazeno",
+      "range": "Rozsah",
+      "title": "Vygenerovaná náhodná čísla"
+    },
+    "shortDescription": "Generování náhodných čísel ve vlastních rozsazích",
+    "title": "Generátor náhodných čísel"
+  },
+  "randomPortGenerator": {
+    "description": "Generování náhodných síťových portů v zadaných rozsazích s nastavitelnými možnostmi.",
+    "error": {
+      "generationFailed": "Generování náhodných portů se nezdařilo. Zkontrolujte vstupní parametry."
+    },
+    "info": {
+      "description": "Generátor náhodných portů vytváří nepředvídatelná čísla síťových portů v zadaných rozsazích. Tento nástroj následuje standardy IANA pro čísla portů a zahrnuje identifikaci běžných služeb. Užitečné pro vývoj, testování, konfiguraci sítě a vyhýbání se konfliktům portů.",
+      "title": "Co je generátor náhodných portů?"
+    },
+    "longDescription": "Generujte náhodné síťové porty v zadaných rozsazích (známé, registrované, dynamické nebo vlastní). Ideální pro vývoj, testování a konfiguraci sítě. Zahrnuje identifikaci služeb pro běžné porty.",
+    "options": {
+      "generation": {
+        "allowDuplicates": {
+          "description": "Povolit výskyt stejného portu vícekrát",
+          "title": "Povolit duplikáty"
+        },
+        "countDescription": "Počet náhodných portů k vygenerování (1-1 000)",
+        "sortResults": {
+          "description": "Seřadit vygenerované porty ve vzestupném pořadí",
+          "title": "Seřadit výsledky"
+        },
+        "title": "Nastavení generování"
+      },
+      "output": {
+        "separatorDescription": "Znak(y) pro oddělení vygenerovaných portů",
+        "title": "Nastavení výstupu"
+      },
+      "range": {
+        "custom": "Vlastní rozsah",
+        "dynamic": "Dynamické porty (49152-65535)",
+        "maxPortDescription": "Maximální číslo portu (1-65535)",
+        "minPortDescription": "Minimální číslo portu (1-65535)",
+        "registered": "Registrované porty (1024-49151)",
+        "title": "Nastavení rozsahu portů",
+        "wellKnown": "Známé porty (1-1023)"
+      }
+    },
+    "result": {
+      "count": "Počet",
+      "hasDuplicates": "Obsahuje duplikáty",
+      "isSorted": "Seřazeno",
+      "portDetails": "Detaily portu",
+      "range": "Rozsah portů",
+      "title": "Vygenerované náhodné porty"
+    },
+    "shortDescription": "Generování náhodných síťových portů",
+    "title": "Generátor náhodných portů"
+  },
+  "slackline": {
+    "description": "Výpočet napětí v slackline",
+    "longDescription": "Tato kalkulačka předpokládá zatížení uprostřed lana",
+    "shortDescription": "Výpočet přibližného napětí slackline nebo šňůry na prádlo. Nespoléhejte se na to pro bezpečnost.",
+    "title": "Napětí slackline"
+  },
+  "sphereArea": {
+    "description": "Povrch koule",
+    "longDescription": "Tato kalkulačka určuje povrch koule pomocí vzorce A = 4πr². Můžete zadat poloměr pro nalezení povrchu nebo zadat povrch pro výpočet potřebného poloměru.",
+    "shortDescription": "Výpočet povrchu koule na základě jejího poloměru",
+    "title": "Povrch koule"
+  },
+  "sphereVolume": {
+    "description": "Objem koule",
+    "longDescription": "Tato kalkulačka počítá objem koule pomocí vzorce V = (4/3)πr³. Můžete zadat poloměr nebo průměr pro nalezení objemu, nebo zadat objem pro určení potřebného poloměru.",
+    "shortDescription": "Výpočet objemu koule pomocí poloměru nebo průměru",
+    "title": "Objem koule"
+  },
+  "sum": {
+    "description": "Výpočet součtu seznamu čísel. Zadejte čísla oddělená čárkami nebo novými řádky pro získání jejich celkového součtu.",
+    "example1Description": "V tomto příkladu vypočítáme součet deseti kladných celých čísel. Tato celá čísla jsou uvedena ve sloupci a jejich celkový součet je 19494.",
+    "example1Title": "Součet deseti kladných čísel",
+    "example2Description": "Tento příklad obrací sloupec dvaceti tříslabikovných podstatných jmen a tiskne všechna slova odzdola nahoru.",
+    "example2Title": "Počítání stromů v parku",
+    "example3Description": "V tomto příkladu sečteme devadesát různých hodnot – kladná čísla, záporná čísla, celá čísla a desetinné zlomky. Nastavíme vstupní oddělovač na čárku a po sečtení všech dostaneme 0 jako výstup.",
+    "example3Title": "Součet celých a desetinných čísel",
+    "example4Description": "V tomto příkladu vypočítáme součet všech deseti číslic a povolíme možnost \"Zobrazit průběžný součet\". Získáme mezivýsledky součtu v procesu sčítání.",
+    "example4Title": "Průběžný součet čísel",
+    "extractionTypes": {
+      "delimiter": {
+        "description": "Přizpůsobte oddělovač čísel zde. (Ve výchozím nastavení konec řádku.)",
+        "title": "Oddělovač čísel"
+      },
+      "smart": {
+        "description": "Automatická detekce čísel na vstupu.",
+        "title": "Chytrý součet"
+      }
+    },
+    "inputTitle": "Vstup",
+    "numberExtraction": "Extrakce čísel",
+    "printRunningSum": "Zobrazit průběžný součet",
+    "printRunningSumDescription": "Zobrazit součet postupně, jak je počítán krok za krokem.",
+    "resultTitle": "Celkem",
+    "runningSum": "Průběžný součet",
+    "shortDescription": "Výpočet součtu čísel",
+    "title": "Součet",
+    "toolInfo": {
+      "description": "Toto je online prohlížečový nástroj pro výpočet součtu skupiny čísel. Čísla můžete zadat oddělená čárkou, mezerou nebo jakýmkoli jiným znakem, včetně konce řádku. Můžete také jednoduše vložit fragment textových dat obsahujících číselné hodnoty, které chcete sečíst, a nástroj je extrahuje a najde jejich součet.",
+      "title": "Co je kalkulačka součtu čísel?"
+    }
+  },
+  "voltageDropInWire": {
+    "description": "Výpočet úbytku napětí a ztrát výkonu v dvouvodičovém kabelu tam a zpět",
+    "longDescription": "Tato kalkulačka pomáhá určit úbytek napětí a ztráty výkonu v dvouvodičovém elektrickém kabelu. Zohledňuje délku kabelu, průřez vodiče, rezistivitu materiálu a protékající proud.",
+    "shortDescription": "Výpočet úbytku napětí a ztrát výkonu v elektrických kabelech na základě délky, materiálu a proudu",
+    "title": "Úbytek napětí v kabelu tam a zpět"
+  },
+  "byteConverter": {
+    "description": "Převod datových hodnot mezi různými bajtovými jednotkami s podporou SI (dekadických) i IEC (binárních) systémů. Podporuje převod více řádků.",
+    "title": "Převodník bajtů",
+    "shortDescription": "Rychlý převod hodnot mezi bajtovými jednotkami",
+    "inputTitle": "Vstupní hodnoty",
+    "outputTitle": "Převedený výstup",
+    "unit": {
+      "title": "Nastavení převodu",
+      "from": "Vyberte jednotku vstupních hodnot, které zadáváte (např. KB, MB, GiB).",
+      "to": "Vyberte jednotku, na kterou chcete vstupní hodnoty převést.",
+      "precision": "Počet desetinných míst zobrazených v převedeném výstupu."
+    }
+  }
+}

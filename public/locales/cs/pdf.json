@@ -1,0 +1,119 @@
+{
+  "compressPdf": {
+    "compressedFileSize": "Komprimovaná velikost souboru",
+    "compressingPdf": "Komprimování PDF...",
+    "compressionLevel": "Úroveň komprese",
+    "compressionSettings": "Nastavení komprese",
+    "description": "Zmenšení velikosti PDF souboru při zachování kvality pomocí Ghostscriptu",
+    "errorCompressingPdf": "Komprese PDF se nezdařila: {{error}}",
+    "errorReadingPdf": "Nepodařilo se přečíst PDF soubor. Ujistěte se, že se jedná o platný PDF.",
+    "fileSize": "Původní velikost souboru",
+    "highCompression": "Vysoká komprese",
+    "highCompressionDescription": "Maximální zmenšení velikosti souboru s určitou ztrátou kvality",
+    "inputTitle": "Vstupní PDF",
+    "longDescription": "Komprimujte PDF soubory bezpečně ve vašem prohlížeči pomocí Ghostscriptu. Vaše soubory nikdy neopustí vaše zařízení, což zajišťuje úplné soukromí při zmenšování velikosti souborů pro sdílení e-mailem, nahrávání na weby nebo úsporu úložného prostoru. Poháněno technologií WebAssembly.",
+    "lowCompression": "Nízká komprese",
+    "lowCompressionDescription": "Mírné zmenšení velikosti souboru s minimální ztrátou kvality",
+    "mediumCompression": "Střední komprese",
+    "mediumCompressionDescription": "Rovnováha mezi velikostí souboru a kvalitou",
+    "pages": "Počet stránek",
+    "resultTitle": "Komprimované PDF",
+    "shortDescription": "Komprese PDF souborů bezpečně ve vašem prohlížeči",
+    "title": "Komprimovat PDF"
+  },
+  "editor": {
+    "description": "Pokročilý PDF editor s možnostmi anotací, vyplňování formulářů, zvýrazňování a exportu. Upravujte PDF přímo v prohlížeči profesionálními nástroji včetně vkládání textu, kreslení, zvýrazňování, podepisování a vyplňování formulářů.",
+    "shortDescription": "Úprava PDF s pokročilými nástroji pro anotace, podepisování a editaci",
+    "title": "PDF Editor"
+  },
+  "merge": {
+    "inputTitle": "Vstupní PDF",
+    "loadingText": "Extrahování stránek",
+    "resultTitle": "Výstupní sloučené PDF",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje sloučit více PDF souborů do jednoho dokumentu. Pro použití nástroje stačí nahrát PDF soubory, které chcete sloučit. Nástroj poté zkombinuje všechny stránky ze vstupních souborů do jednoho PDF dokumentu.",
+      "title": "Jak použít nástroj pro sloučení PDF?"
+    }
+  },
+  "mergePdf": {
+    "description": "Sloučení více PDF souborů do jednoho dokumentu.",
+    "inputTitle": "Vstupní PDF",
+    "mergingPdfs": "Slučování PDF",
+    "pdfOptions": "Nastavení PDF",
+    "resultTitle": "Sloučené PDF",
+    "shortDescription": "Sloučení více PDF souborů do jednoho dokumentu",
+    "sortByFileName": "Řadit podle názvu souboru",
+    "sortByFileNameDescription": "Seřadit PDF abecedně podle názvu souboru",
+    "sortByUploadOrder": "Řadit podle pořadí nahrání",
+    "sortByUploadOrderDescription": "Zachovat PDF v pořadí, v jakém byly nahrány",
+    "title": "Sloučit PDF",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje sloučit více PDF souborů do jednoho dokumentu. Můžete zvolit způsob řazení PDF a nástroj je sloučí v zadaném pořadí.",
+      "title": "Sloučení PDF souborů"
+    }
+  },
+  "pdfToEpub": {
+    "description": "Převod PDF dokumentů na EPUB soubory pro lepší kompatibilitu s čtečkami elektronických knih.",
+    "shortDescription": "Převod PDF souborů do formátu EPUB",
+    "title": "PDF do EPUB"
+  },
+  "pdfToPng": {
+    "description": "Převod PDF dokumentů na PNG panely.",
+    "longDescription": "Nahrajte PDF a převeďte každou stránku na vysoce kvalitní PNG obrázek přímo ve vašem prohlížeči. Tento nástroj je ideální pro extrakci vizuálního obsahu nebo sdílení jednotlivých stránek. Žádná data se neodesílají – vše běží lokálně.",
+    "shortDescription": "Převod PDF na PNG obrázky",
+    "title": "PDF na PNG"
+  },
+  "convertToPdf": {
+    "title": "Obrázky do PDF",
+    "description": "Převod různých obrázkových formátů (PNG, GIF, JPG, TIF, PSD, SVG, WEBP, HEIC, RAW) do PDF s možnostmi škálování obrázku a volby orientace stránky.",
+    "shortDescription": "Převod obrázků do PDF s kontrolou měřítka a orientace"
+  },
+  "protectPdf": {
+    "description": "Přidejte ochranu heslem k vašim PDF souborům bezpečně ve vašem prohlížeči",
+    "shortDescription": "Bezpečná ochrana PDF souborů heslem",
+    "title": "Ochránit PDF"
+  },
+  "rotatePdf": {
+    "allPagesWillBeRotated": "Všech {{count}} stránek bude otočeno",
+    "angleOptions": {
+      "clockwise90": "90° Ve směru hodinových ručiček",
+      "counterClockwise270": "270° (90° Proti směru hodinových ručiček)",
+      "upsideDown180": "180° (Vzhůru nohama)"
+    },
+    "applyToAllPages": "Aplikovat na všechny stránky",
+    "description": "Otočení stránek v PDF dokumentu.",
+    "inputTitle": "Vstupní PDF",
+    "longDescription": "Změňte orientaci stránek PDF otočením o 90, 180 nebo 270 stupňů. Užitečné pro opravu nesprávně naskenovaných dokumentů nebo přípravu PDF pro tisk.",
+    "pageRangesDescription": "Zadejte čísla stránek nebo rozsahy oddělené čárkami (např. 1,3,5-7)",
+    "pageRangesPlaceholder": "např. 1,5-8",
+    "pagesWillBeRotated": "{{count}} stránek bude otočeno",
+    "pdfPageCount": "PDF má {{count}} stránek",
+    "resultTitle": "Otočené PDF",
+    "rotatingPages": "Otáčení stránek",
+    "rotationAngle": "Úhel otočení",
+    "rotationSettings": "Nastavení otočení",
+    "shortDescription": "Otočení stránek v PDF dokumentu",
+    "title": "Otočit PDF",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje otočit stránky v PDF dokumentu. Můžete otočit všechny stránky nebo zadat konkrétní stránky k otočení. Vyberte úhel otočení: 90° Ve směru hodinových ručiček, 180° (Vzhůru nohama) nebo 270° (90° Proti směru hodinových ručiček). Pro otočení konkrétních stránek zrušte zaškrtnutí \"Aplikovat na všechny stránky\" a zadejte čísla stránek nebo rozsahy oddělené čárkami (např. 1,3,5-7).",
+      "title": "Jak použít nástroj pro otočení PDF"
+    }
+  },
+  "splitPdf": {
+    "description": "Extrakce konkrétních stránek z PDF dokumentu.",
+    "extractingPages": "Extrahování stránek",
+    "inputTitle": "Vstupní PDF",
+    "pageExtractionPreview": "Bude extrahováno {{count}} stránek",
+    "pageRangesDescription": "Zadejte čísla stránek nebo rozsahy oddělené čárkami (např. 1,3,5-7)",
+    "pageRangesPlaceholder": "např. 1,5-8",
+    "pageSelection": "Výběr stránek",
+    "pdfPageCount": "PDF má {{count}} stránek",
+    "resultTitle": "Extrahované PDF",
+    "shortDescription": "Extrakce konkrétních stránek z PDF souboru",
+    "title": "Rozdělit PDF",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje extrahovat konkrétní stránky z PDF dokumentu. Můžete zadat jednotlivé stránky nebo rozsahy stránek k extrakci.",
+      "title": "Rozdělit PDF"
+    }
+  }
+}

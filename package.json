@@ -1,16 +1,14 @@
 {
-  "name": "omni-tools",
-  "description": "This project offers a variety of online tools to help with everyday tasks, \nall available for free and open for community contributions",
+  "name": "great-tools",
+  "description": "Great Tools - sada online nástrojů pro každodenní úkoly od Great Idea",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Ibrahima Gaye Coulibaly",
-    "email": "ibracool99@gmail.com",
-    "url": "https://github.com/iib0011"
+    "name": "Mgr. Zdeněk Mazal / Great Idea",
+    "url": "https://github.com/zdenekgreat"
   },
   "bugs": {
-    "url": "https://github.com/iib0011/omni-tools/issues",
-    "email": "ibracool99@gmail.com"
+    "url": "https://github.com/zdenekgreat/omni-tools/issues"
   },
   "scripts": {
     "dev": "vite",

@@ -1,0 +1,126 @@
+{
+  "changeColors": {
+    "description": "Svět",
+    "shortDescription": "Rychlá záměna barev v obrázku",
+    "title": "Změnit barvy v obrázku"
+  },
+  "changeOpacity": {
+    "description": "Snadno upravte průhlednost vašich obrázků. Stačí nahrát obrázek, použít posuvník pro nastavení požadované úrovně průhlednosti mezi 0 (plně průhledné) a 1 (plně neprůhledné) a stáhnout upravený obrázek.",
+    "shortDescription": "Úprava průhlednosti obrázků",
+    "title": "Změnit průhlednost obrázku"
+  },
+  "compress": {
+    "compressedSize": "Komprimovaná velikost",
+    "compressionOptions": "Nastavení komprese",
+    "description": "Zmenšení velikosti souboru obrázku při zachování kvality.",
+    "failedToCompress": "Komprese obrázku se nezdařila. Zkuste to prosím znovu.",
+    "fileSizes": "Velikosti souborů",
+    "inputTitle": "Vstupní obrázek",
+    "maxFileSizeDescription": "Maximální velikost souboru v megabajtech",
+    "originalSize": "Původní velikost",
+    "qualityDescription": "Procentuální kvalita obrázku (nižší znamená menší velikost souboru)",
+    "resultTitle": "Komprimovaný obrázek",
+    "shortDescription": "Komprese obrázků pro zmenšení velikosti souboru při zachování rozumné kvality.",
+    "title": "Komprimovat obrázek"
+  },
+  "compressPng": {
+    "description": "Toto je program pro kompresi PNG obrázků. Jakmile vložíte PNG obrázek do vstupní oblasti, program jej zkomprimuje a zobrazí výsledek ve výstupní oblasti. V nastavení můžete upravit úroveň komprese a také zjistit starou a novou velikost souboru obrázku.",
+    "shortDescription": "Rychlá komprese PNG",
+    "title": "Komprimovat PNG"
+  },
+  "convertJgpToPng": {
+    "description": "Rychle převeďte JPG obrázky na PNG. Stačí importovat PNG obrázek v editoru vlevo.",
+    "shortDescription": "Rychlý převod JPG obrázků na PNG",
+    "title": "Převést JPG na PNG"
+  },
+  "convertToJpg": {
+    "description": "Převod různých obrázkových formátů (PNG, GIF, TIF, PSD, SVG, WEBP, HEIC, RAW) na JPG s nastavitelnou kvalitou a barvou pozadí.",
+    "shortDescription": "Převod obrázků na JPG s kontrolou kvality",
+    "title": "Převést obrázky na JPG"
+  },
+  "createTransparent": {
+    "description": "Svět",
+    "shortDescription": "Rychlé vytvoření průhledného obrázku",
+    "title": "Vytvořit průhledný PNG"
+  },
+  "crop": {
+    "description": "Oříznutí obrázků pro odstranění nežádoucích oblastí.",
+    "inputTitle": "Vstupní obrázek",
+    "resultTitle": "Oříznutý obrázek",
+    "shortDescription": "Rychlé oříznutí obrázků.",
+    "title": "Oříznout obrázek"
+  },
+  "editor": {
+    "description": "Pokročilý editor obrázků s nástroji pro oříznutí, otočení, anotace, úpravu barev a přidání vodoznaků. Upravujte své obrázky profesionálními nástroji přímo ve vašem prohlížeči.",
+    "shortDescription": "Úprava obrázků s pokročilými nástroji a funkcemi",
+    "title": "Editor obrázků"
+  },
+  "imageToText": {
+    "description": "Extrakce textu z obrázků (JPG, PNG) pomocí optického rozpoznávání znaků (OCR).",
+    "shortDescription": "Extrakce textu z obrázků pomocí OCR.",
+    "title": "Obrázek na text (OCR)"
+  },
+  "qrCode": {
+    "description": "Generování QR kódů pro různé typy dat: URL, Text, E-mail, Telefon, SMS, WiFi, vCard a další.",
+    "shortDescription": "Vytváření přizpůsobených QR kódů pro různé datové formáty.",
+    "title": "Generátor QR kódů",
+    "resultOutput": "Vygenerovaný QR kód",
+    "options": {
+      "qrType": "Vyberte typ QR kódu",
+      "encryptionType": "Typ šifrování",
+      "email": "E-mail",
+      "emailBody": "Tělo e-mailu (volitelné)",
+      "emailSubject": "Předmět e-mailu (volitelné)",
+      "text": "Zadejte text",
+      "name": "Název",
+      "fullName": "Celé jméno",
+      "address": "Adresa",
+      "company": "Společnost (volitelné)",
+      "job": "Pracovní pozice (volitelné)",
+      "website": "Webová stránka (volitelné)",
+      "message": "Zpráva (volitelné)",
+      "phone": "Telefonní číslo",
+      "url": "Zadejte URL",
+      "ssid": "Název sítě (SSID)",
+      "password": "Heslo",
+      "size": "Velikost v pixelech (100-1000)"
+    }
+  },
+  "removeBackground": {
+    "description": "Svět",
+    "shortDescription": "Automatické odstranění pozadí z obrázků",
+    "title": "Odstranit pozadí z obrázku"
+  },
+  "resize": {
+    "description": "Změna velikosti obrázků na různé rozměry.",
+    "dimensionType": "Typ rozměru",
+    "heightDescription": "Výška (v pixelech)",
+    "inputTitle": "Vstupní obrázek",
+    "maintainAspectRatio": "Zachovat poměr stran",
+    "maintainAspectRatioDescription": "Zachovat původní poměr stran obrázku.",
+    "percentage": "Procenta",
+    "percentageDescription": "Procento původní velikosti (např. 50 pro poloviční velikost, 200 pro dvojnásobnou velikost)",
+    "resizeByPercentage": "Změna velikosti procentuálně",
+    "resizeByPercentageDescription": "Změna velikosti zadáním procenta původní velikosti.",
+    "resizeByPixels": "Změna velikosti v pixelech",
+    "resizeByPixelsDescription": "Změna velikosti zadáním rozměrů v pixelech.",
+    "resizeMethod": "Metoda změny velikosti",
+    "resultTitle": "Obrázek se změněnou velikostí",
+    "setHeight": "Nastavit výšku",
+    "setHeightDescription": "Zadejte výšku v pixelech a šířka se vypočítá na základě poměru stran.",
+    "setWidth": "Nastavit šířku",
+    "setWidthDescription": "Zadejte šířku v pixelech a výška se vypočítá na základě poměru stran.",
+    "shortDescription": "Snadná změna velikosti obrázků.",
+    "title": "Změnit velikost obrázku",
+    "toolInfo": {
+      "description": "Tento nástroj umožňuje změnit velikost obrázků JPG, PNG, SVG nebo GIF. Můžete změnit velikost zadáním rozměrů v pixelech nebo procentuálně, s možností zachování původního poměru stran.",
+      "title": "Změnit velikost obrázku"
+    },
+    "widthDescription": "Šířka (v pixelech)"
+  },
+  "rotate": {
+    "description": "Otočení obrázku o zadaný úhel.",
+    "shortDescription": "Snadné otočení obrázku.",
+    "title": "Otočit obrázek"
+  }
+}

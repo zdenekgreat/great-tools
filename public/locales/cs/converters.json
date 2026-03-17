@@ -1,0 +1,8 @@
+{
+  "audioconverter": {
+    "title": "Převodník zvuku",
+    "description": "Převod zvukových souborů mezi různými formáty.",
+    "shortDescription": "Převod zvukových souborů do různých formátů.",
+    "longDescription": "Tento nástroj umožňuje převádět zvukové soubory z jednoho formátu do druhého s podporou široké škály zvukových formátů pro bezproblémový převod."
+  }
+}
