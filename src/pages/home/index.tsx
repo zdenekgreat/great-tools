@@ -18,7 +18,7 @@ export default function Home() {
       sx={{
         background: `url(/assets/${
           theme.palette.mode === 'dark'
-            ? 'background-dark.png'
+            ? 'background-dark.svg'
             : 'background.svg'
         })`,
         backgroundColor: 'background.default'

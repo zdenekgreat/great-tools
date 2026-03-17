@@ -323,5 +323,118 @@
       "title": "Unicode Kodér / Dekodér",
       "description": "Tento nástroj umožňuje převést prostý text na Unicode escape sekvence (např. \\uXXXX) a dekódovat Unicode escape sekvence zpět na standardní text. Můžete také zvolit, zda bude hexadecimální výstup formátován velkými nebo malými písmeny při kódování."
     }
+  },
+  "lowercase": {
+    "title": "Převést na malá písmena",
+    "description": "Převod textu na malá písmena.",
+    "shortDescription": "Převod textu na malá písmena",
+    "inputTitle": "Vstupní text",
+    "resultTitle": "Text malými písmeny"
+  },
+  "titleCase": {
+    "title": "Velké počáteční písmeno",
+    "description": "Převod textu tak, aby každé slovo začínalo velkým písmenem.",
+    "shortDescription": "Velké první písmeno každého slova",
+    "inputTitle": "Vstupní text",
+    "resultTitle": "Text s velkými počátečními písmeny"
+  },
+  "removeDiacritics": {
+    "title": "Odstranit diakritiku",
+    "description": "Odstranění diakritických znamének z textu. Převod písmen s háčky a čárkami na základní latinku.",
+    "shortDescription": "Odstranění háčků a čárek z textu",
+    "inputTitle": "Vstupní text",
+    "resultTitle": "Text bez diakritiky"
+  },
+  "loremIpsum": {
+    "title": "Generátor Lorem Ipsum",
+    "description": "Generování testovacího textu Lorem Ipsum s nastavitelným počtem odstavců.",
+    "shortDescription": "Generování testovacího placeholder textu",
+    "inputTitle": "Počet odstavců",
+    "resultTitle": "Vygenerovaný text",
+    "paragraphs": "Počet odstavců",
+    "paragraphsDescription": "Kolik odstavců Lorem Ipsum vygenerovat"
+  },
+  "wordCounter": {
+    "title": "Počítadlo slov",
+    "description": "Analýza textu – počet znaků, slov, vět, řádků a odstavců.",
+    "shortDescription": "Spočítání slov a znaků v textu",
+    "inputTitle": "Vstupní text",
+    "resultTitle": "Statistiky"
+  },
+  "markdownToHtml": {
+    "title": "Markdown na HTML",
+    "description": "Převod textu ve formátu Markdown na HTML kód.",
+    "shortDescription": "Převod Markdown na HTML",
+    "inputTitle": "Vstupní Markdown",
+    "resultTitle": "HTML výstup"
+  },
+  "textDiff": {
+    "title": "Porovnání textů",
+    "description": "Porovnání dvou textů řádek po řádku. Zobrazení přidaných, odstraněných a nezměněných řádků.",
+    "shortDescription": "Porovnání dvou textů a zobrazení rozdílů",
+    "inputTitle1": "Text 1",
+    "inputTitle2": "Text 2",
+    "resultTitle": "Rozdíly"
+  },
+  "hashGenerator": {
+    "title": "Generátor hashů",
+    "description": "Generování kryptografických hashů z textu. Podporuje MD5, SHA-1, SHA-256 a SHA-512.",
+    "shortDescription": "Generování MD5, SHA-1, SHA-256 hashů",
+    "inputTitle": "Vstupní text",
+    "resultTitle": "Hash",
+    "algorithm": "Algoritmus",
+    "algorithmDescription": "Vyberte hashovací algoritmus"
+  },
+  "uuidGenerator": {
+    "title": "Generátor UUID",
+    "description": "Generování unikátních identifikátorů UUID v4.",
+    "shortDescription": "Generování náhodných UUID",
+    "resultTitle": "Vygenerované UUID",
+    "count": "Počet",
+    "countDescription": "Kolik UUID vygenerovat"
+  },
+  "htmlEntity": {
+    "title": "HTML Entity Kodér/Dekodér",
+    "description": "Kódování nebo dekódování HTML entit. Převod speciálních znaků na HTML entity a zpět.",
+    "shortDescription": "Kódování/dekódování HTML entit",
+    "inputTitle": "Vstupní text",
+    "resultTitle": "Výsledek",
+    "mode": "Režim",
+    "encode": "Kódovat",
+    "decode": "Dekódovat"
+  },
+  "jwtDecoder": {
+    "title": "JWT Dekodér",
+    "description": "Dekódování JSON Web Tokenů (JWT). Zobrazení hlavičky a payloadu ve formátovaném JSON.",
+    "shortDescription": "Dekódování a zobrazení obsahu JWT tokenů",
+    "inputTitle": "JWT Token",
+    "resultTitle": "Dekódovaný obsah"
+  },
+  "colorConverter": {
+    "title": "Převodník barev",
+    "description": "Převod barev mezi formáty HEX, RGB a HSL.",
+    "shortDescription": "Převod HEX ↔ RGB ↔ HSL barev",
+    "inputTitle": "Vstupní barva",
+    "resultTitle": "Převedené formáty"
+  },
+  "cssJsMinify": {
+    "title": "CSS/JS Minifikátor",
+    "description": "Minifikace CSS a JavaScript kódu odstraněním komentářů, mezer a nových řádků.",
+    "shortDescription": "Minifikace CSS a JavaScript kódu",
+    "inputTitle": "Vstupní kód",
+    "resultTitle": "Minifikovaný kód",
+    "type": "Typ kódu",
+    "css": "CSS",
+    "js": "JavaScript"
+  },
+  "regexTester": {
+    "title": "Regex Tester",
+    "description": "Testování regulárních výrazů na textu. Zobrazení všech shod s pozicemi.",
+    "shortDescription": "Testování regulárních výrazů živě",
+    "inputTitle": "Testovací text",
+    "patternTitle": "Regulární výraz",
+    "resultTitle": "Výsledky",
+    "flags": "Příznaky",
+    "flagsDescription": "Příznaky regulárního výrazu (g, i, m)"
   }
 }

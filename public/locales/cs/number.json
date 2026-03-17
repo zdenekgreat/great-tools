@@ -201,5 +201,35 @@
       "to": "Vyberte jednotku, na kterou chcete vstupní hodnoty převést.",
       "precision": "Počet desetinných míst zobrazených v převedeném výstupu."
     }
+  },
+  "vatCalculator": {
+    "title": "Kalkulačka DPH",
+    "description": "Výpočet DPH z částky. Přidání nebo odebrání DPH s nastavitelnou sazbou.",
+    "shortDescription": "Výpočet DPH (přidání/odebrání)",
+    "inputTitle": "Částka",
+    "resultTitle": "Výsledek",
+    "rate": "Sazba DPH",
+    "rateDescription": "Sazba DPH v procentech",
+    "mode": "Režim",
+    "addVat": "Přidat DPH k částce",
+    "removeVat": "Odečíst DPH z částky"
+  },
+  "unitConverter": {
+    "title": "Převodník jednotek",
+    "description": "Převod mezi různými měrnými jednotkami – délka, hmotnost, teplota.",
+    "shortDescription": "Převod km↔míle, kg↔lb, °C↔°F",
+    "inputTitle": "Hodnota",
+    "resultTitle": "Výsledek",
+    "from": "Z jednotky",
+    "to": "Na jednotku"
+  },
+  "bmiCalculator": {
+    "title": "BMI Kalkulačka",
+    "description": "Výpočet indexu tělesné hmotnosti (BMI) na základě váhy a výšky.",
+    "shortDescription": "Výpočet BMI z váhy a výšky",
+    "inputTitle": "Váha (kg)",
+    "resultTitle": "Výsledek BMI",
+    "height": "Výška (cm)",
+    "heightDescription": "Vaše výška v centimetrech"
   }
 }

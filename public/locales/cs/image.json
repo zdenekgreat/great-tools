@@ -1,6 +1,6 @@
 {
   "changeColors": {
-    "description": "Svět",
+    "description": "Změňte barvy v obrázku snadno. Vyberte barevné páry k výměně a upravte jejich intenzitu pro přesnou kontrolu barev.",
     "shortDescription": "Rychlá záměna barev v obrázku",
     "title": "Změnit barvy v obrázku"
   },
@@ -39,7 +39,7 @@
     "title": "Převést obrázky na JPG"
   },
   "createTransparent": {
-    "description": "Svět",
+    "description": "Vytvořte obrázky s průhledností. Zadejte barvu, kterou chcete udělat průhlednou, a okamžitě získejte obrázek s alfa kanálem.",
     "shortDescription": "Rychlé vytvoření průhledného obrázku",
     "title": "Vytvořit průhledný PNG"
   },
@@ -87,7 +87,7 @@
     }
   },
   "removeBackground": {
-    "description": "Svět",
+    "description": "Automatické odstranění pozadí z vašich obrázků. Stačí nahrát obrázek a nástroj inteligentně odstraní pozadí, ponechávajíc pouze hlavní obsah.",
     "shortDescription": "Automatické odstranění pozadí z obrázků",
     "title": "Odstranit pozadí z obrázku"
   },

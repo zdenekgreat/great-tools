@@ -89,5 +89,19 @@
       "title": "What is JSON Validation?"
     },
     "validJson": "✅ Valid JSON"
+  },
+  "jsonToYaml": {
+    "title": "JSON to YAML",
+    "description": "Convert JSON data to YAML format.",
+    "shortDescription": "Convert JSON to YAML",
+    "inputTitle": "Input JSON",
+    "resultTitle": "YAML output"
+  },
+  "yamlToJson": {
+    "title": "YAML to JSON",
+    "description": "Convert YAML data to JSON format.",
+    "shortDescription": "Convert YAML to JSON",
+    "inputTitle": "Input YAML",
+    "resultTitle": "JSON output"
   }
 }

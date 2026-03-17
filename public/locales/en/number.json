@@ -201,5 +201,35 @@
       "to": "Select the unit you want the input values to be converted into.",
       "precision": "Number of decimal places to display in the converted output."
     }
+  },
+  "vatCalculator": {
+    "title": "VAT Calculator",
+    "description": "Calculate VAT from amount. Add or remove VAT with configurable rate.",
+    "shortDescription": "Calculate VAT (add/remove)",
+    "inputTitle": "Amount",
+    "resultTitle": "Result",
+    "rate": "VAT Rate",
+    "rateDescription": "VAT rate in percent",
+    "mode": "Mode",
+    "addVat": "Add VAT to amount",
+    "removeVat": "Remove VAT from amount"
+  },
+  "unitConverter": {
+    "title": "Unit Converter",
+    "description": "Convert between different measurement units - length, weight, temperature.",
+    "shortDescription": "Convert km↔miles, kg↔lb, °C↔°F",
+    "inputTitle": "Value",
+    "resultTitle": "Result",
+    "from": "From unit",
+    "to": "To unit"
+  },
+  "bmiCalculator": {
+    "title": "BMI Calculator",
+    "description": "Calculate Body Mass Index (BMI) based on weight and height.",
+    "shortDescription": "Calculate BMI from weight and height",
+    "inputTitle": "Weight (kg)",
+    "resultTitle": "BMI Result",
+    "height": "Height (cm)",
+    "heightDescription": "Your height in centimeters"
   }
 }

@@ -22,6 +22,20 @@ import { tool as stringPasswordGenerator } from './password-generator/meta';
 import { tool as stringEncodeUrl } from './url-encode/meta';
 import { tool as StringDecodeUrl } from './url-decode/meta';
 import { tool as stringUnicode } from './unicode/meta';
+import { tool as stringLowercase } from './lowercase/meta';
+import { tool as stringTitleCase } from './title-case/meta';
+import { tool as stringRemoveDiacritics } from './remove-diacritics/meta';
+import { tool as stringLoremIpsum } from './lorem-ipsum/meta';
+import { tool as stringWordCounter } from './word-counter/meta';
+import { tool as stringMarkdownToHtml } from './markdown-to-html/meta';
+import { tool as stringTextDiff } from './text-diff/meta';
+import { tool as stringHashGenerator } from './hash-generator/meta';
+import { tool as stringUuidGenerator } from './uuid-generator/meta';
+import { tool as stringHtmlEntity } from './html-entity/meta';
+import { tool as stringJwtDecoder } from './jwt-decoder/meta';
+import { tool as stringColorConverter } from './color-converter/meta';
+import { tool as stringCssJsMinify } from './css-js-minify/meta';
+import { tool as stringRegexTester } from './regex-tester/meta';
 
 export const stringTools = [
   stringSplit,
@@ -47,5 +61,19 @@ export const stringTools = [
   stringEncodeUrl,
   StringDecodeUrl,
   stringUnicode,
-  stringHiddenCharacterDetector
+  stringHiddenCharacterDetector,
+  stringLowercase,
+  stringTitleCase,
+  stringRemoveDiacritics,
+  stringLoremIpsum,
+  stringWordCounter,
+  stringMarkdownToHtml,
+  stringTextDiff,
+  stringHashGenerator,
+  stringUuidGenerator,
+  stringHtmlEntity,
+  stringJwtDecoder,
+  stringColorConverter,
+  stringCssJsMinify,
+  stringRegexTester
 ];

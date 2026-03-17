@@ -88,5 +88,19 @@
       "title": "Co je validace JSON?"
     },
     "validJson": "✅ Platný JSON"
+  },
+  "jsonToYaml": {
+    "title": "JSON na YAML",
+    "description": "Převod JSON dat do formátu YAML.",
+    "shortDescription": "Převod JSON na YAML",
+    "inputTitle": "Vstupní JSON",
+    "resultTitle": "YAML výstup"
+  },
+  "yamlToJson": {
+    "title": "YAML na JSON",
+    "description": "Převod YAML dat do formátu JSON.",
+    "shortDescription": "Převod YAML na JSON",
+    "inputTitle": "Vstupní YAML",
+    "resultTitle": "JSON výstup"
   }
 }

@@ -28,6 +28,7 @@ export async function convertPdfToPngImages(pdfFile: File): Promise<{
     canvas.width = viewport.width;
     canvas.height = viewport.height;
 
+    // @ts-ignore - canvas property is needed for browser rendering
     await page.render({ canvas, canvasContext: context, viewport }).promise;
 
     const blob = await new Promise<Blob>((resolve) =>

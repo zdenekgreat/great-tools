@@ -323,5 +323,118 @@
       "title": "Unicode Encoder / Decoder",
       "description": "This tool lets you convert plain text into Unicode escape sequences (e.g., \\uXXXX) and decode Unicode escape sequences back into standard text. You can also choose whether the hexadecimal output is formatted in uppercase or lowercase when encoding."
     }
+  },
+  "lowercase": {
+    "title": "Convert to Lowercase",
+    "description": "Convert text to lowercase letters.",
+    "shortDescription": "Convert text to lowercase",
+    "inputTitle": "Input text",
+    "resultTitle": "Lowercase text"
+  },
+  "titleCase": {
+    "title": "Title Case",
+    "description": "Convert text so that each word starts with a capital letter.",
+    "shortDescription": "Capitalize first letter of each word",
+    "inputTitle": "Input text",
+    "resultTitle": "Title case text"
+  },
+  "removeDiacritics": {
+    "title": "Remove Diacritics",
+    "description": "Remove diacritical marks from text. Convert accented characters to basic Latin letters.",
+    "shortDescription": "Remove accents and diacritics from text",
+    "inputTitle": "Input text",
+    "resultTitle": "Text without diacritics"
+  },
+  "loremIpsum": {
+    "title": "Lorem Ipsum Generator",
+    "description": "Generate Lorem Ipsum placeholder text with configurable number of paragraphs.",
+    "shortDescription": "Generate placeholder dummy text",
+    "inputTitle": "Number of paragraphs",
+    "resultTitle": "Generated text",
+    "paragraphs": "Paragraphs",
+    "paragraphsDescription": "How many Lorem Ipsum paragraphs to generate"
+  },
+  "wordCounter": {
+    "title": "Word Counter",
+    "description": "Analyze text - count characters, words, sentences, lines and paragraphs.",
+    "shortDescription": "Count words and characters in text",
+    "inputTitle": "Input text",
+    "resultTitle": "Statistics"
+  },
+  "markdownToHtml": {
+    "title": "Markdown to HTML",
+    "description": "Convert Markdown formatted text to HTML code.",
+    "shortDescription": "Convert Markdown to HTML",
+    "inputTitle": "Input Markdown",
+    "resultTitle": "HTML output"
+  },
+  "textDiff": {
+    "title": "Text Diff",
+    "description": "Compare two texts line by line. Show added, removed and unchanged lines.",
+    "shortDescription": "Compare two texts and show differences",
+    "inputTitle1": "Text 1",
+    "inputTitle2": "Text 2",
+    "resultTitle": "Differences"
+  },
+  "hashGenerator": {
+    "title": "Hash Generator",
+    "description": "Generate cryptographic hashes from text. Supports MD5, SHA-1, SHA-256 and SHA-512.",
+    "shortDescription": "Generate MD5, SHA-1, SHA-256 hashes",
+    "inputTitle": "Input text",
+    "resultTitle": "Hash",
+    "algorithm": "Algorithm",
+    "algorithmDescription": "Select hashing algorithm"
+  },
+  "uuidGenerator": {
+    "title": "UUID Generator",
+    "description": "Generate unique UUID v4 identifiers.",
+    "shortDescription": "Generate random UUIDs",
+    "resultTitle": "Generated UUIDs",
+    "count": "Count",
+    "countDescription": "How many UUIDs to generate"
+  },
+  "htmlEntity": {
+    "title": "HTML Entity Encoder/Decoder",
+    "description": "Encode or decode HTML entities. Convert special characters to HTML entities and back.",
+    "shortDescription": "Encode/decode HTML entities",
+    "inputTitle": "Input text",
+    "resultTitle": "Result",
+    "mode": "Mode",
+    "encode": "Encode",
+    "decode": "Decode"
+  },
+  "jwtDecoder": {
+    "title": "JWT Decoder",
+    "description": "Decode JSON Web Tokens (JWT). Display header and payload as formatted JSON.",
+    "shortDescription": "Decode and display JWT token contents",
+    "inputTitle": "JWT Token",
+    "resultTitle": "Decoded content"
+  },
+  "colorConverter": {
+    "title": "Color Converter",
+    "description": "Convert colors between HEX, RGB and HSL formats.",
+    "shortDescription": "Convert HEX ↔ RGB ↔ HSL colors",
+    "inputTitle": "Input color",
+    "resultTitle": "Converted formats"
+  },
+  "cssJsMinify": {
+    "title": "CSS/JS Minifier",
+    "description": "Minify CSS and JavaScript code by removing comments, whitespace and line breaks.",
+    "shortDescription": "Minify CSS and JavaScript code",
+    "inputTitle": "Input code",
+    "resultTitle": "Minified code",
+    "type": "Code type",
+    "css": "CSS",
+    "js": "JavaScript"
+  },
+  "regexTester": {
+    "title": "Regex Tester",
+    "description": "Test regular expressions against text. Show all matches with positions.",
+    "shortDescription": "Test regular expressions live",
+    "inputTitle": "Test text",
+    "patternTitle": "Regular expression",
+    "resultTitle": "Results",
+    "flags": "Flags",
+    "flagsDescription": "Regular expression flags (g, i, m)"
   }
 }
