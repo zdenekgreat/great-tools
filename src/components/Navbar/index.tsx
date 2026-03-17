@@ -114,7 +114,7 @@ const Navbar: React.FC<NavbarProps> = ({
     />,
     <Icon
       onClick={() =>
-        window.open('https://github.com/zdenekgreat/omni-tools', '_blank')
+        window.open('https://github.com/zdenekgreat/great-tools', '_blank')
       }
       style={{ cursor: 'pointer' }}
       fontSize={30}

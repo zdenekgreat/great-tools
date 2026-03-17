@@ -1,11 +1,11 @@
 <div align="center">
         <img src="src/assets/logo.png" width="220" />
         <br /><br />
-        <a href="https://github.com/zdenekgreat/omni-tools">
-          <img src="https://img.shields.io/github/stars/zdenekgreat/omni-tools?style=for-the-badge&logo=github" />
+        <a href="https://github.com/zdenekgreat/great-tools">
+          <img src="https://img.shields.io/github/stars/zdenekgreat/great-tools?style=for-the-badge&logo=github" />
         </a>
-        <a href="https://github.com/zdenekgreat/omni-tools/blob/main/LICENSE">
-          <img src="https://img.shields.io/github/license/zdenekgreat/omni-tools?style=for-the-badge" />
+        <a href="https://github.com/zdenekgreat/great-tools/blob/main/LICENSE">
+          <img src="https://img.shields.io/github/license/zdenekgreat/great-tools?style=for-the-badge" />
         </a>
         <br /><br />
 </div>
@@ -59,7 +59,7 @@ Všechny soubory jsou zpracovávány výhradně na straně klienta: nic nikdy ne
 ## Instalace a spuštění
 
 ```bash
-git clone https://github.com/zdenekgreat/omni-tools.git
+git clone https://github.com/zdenekgreat/great-tools.git
 cd omni-tools
 pnpm install
 pnpm dev
