@@ -1,4 +1,4 @@
-import { BrowserRouter, useRoutes } from 'react-router-dom';
+import { BrowserRouter, useRoutes, Navigate } from 'react-router-dom';
 import routesConfig from '../config/routesConfig';
 import Navbar from './Navbar';
 import { Suspense, useState, useEffect } from 'react';
@@ -13,6 +13,7 @@ import ScrollToTopButton from './ScrollToTopButton';
 import { I18nextProvider } from 'react-i18next';
 import i18n from '../i18n';
 import { UserTypeFilterProvider } from 'providers/UserTypeFilterProvider';
+import { toolAliases, categoryAliases } from '../config/czechAliases';
 
 export type Mode = 'dark' | 'light' | 'system';
 
@@ -20,6 +21,20 @@ const AppRoutes = () => {
   const updatedRoutesConfig = [...routesConfig];
   tools.forEach((tool) => {
     updatedRoutesConfig.push({ path: tool.path, element: tool.component() });
+  });
+  // Add Czech URL aliases as redirects
+  Object.entries(toolAliases).forEach(([czPath, enPath]) => {
+    updatedRoutesConfig.push({
+      path: czPath,
+      element: <Navigate to={`/${enPath}`} replace />
+    });
+  });
+  // Add Czech category aliases
+  Object.entries(categoryAliases).forEach(([czCat, enCat]) => {
+    updatedRoutesConfig.push({
+      path: `categories/${czCat}`,
+      element: <Navigate to={`/categories/${enCat}`} replace />
+    });
   });
   return useRoutes(updatedRoutesConfig);
 };
