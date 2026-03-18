@@ -59,7 +59,8 @@
     "rectangular": "Rectangle",
     "rectangularDesc": "Crop a rectangular area from image",
     "circular": "Circle",
-    "circularDesc": "Crop a circular area from image"
+    "circularDesc": "Crop a circular area from image",
+    "cropButton": "Crop"
   },
   "editor": {
     "description": "Advanced image editor with tools for cropping, rotating, annotating, adjusting colors, and adding watermarks. Edit your images with professional-grade tools directly in your browser.",

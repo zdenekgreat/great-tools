@@ -59,7 +59,8 @@
     "rectangular": "Obdélník",
     "rectangularDesc": "Oříznout obdélníkový výřez z obrázku",
     "circular": "Kruh",
-    "circularDesc": "Oříznout kruhový výřez z obrázku"
+    "circularDesc": "Oříznout kruhový výřez z obrázku",
+    "cropButton": "Oříznout"
   },
   "editor": {
     "description": "Pokročilý editor obrázků s nástroji pro oříznutí, otočení, anotace, úpravu barev a přidání vodoznaků. Upravujte své obrázky profesionálními nástroji přímo ve vašem prohlížeči.",

@@ -48,13 +48,13 @@ export default function CropJpg({ title }: ToolComponentProps) {
             <TextFieldWithDesc
               value={values.width}
               onOwnChange={(v) => updateField('width', v)}
-              description="Width (px)"
+              description={t('crop.widthDesc')}
               inputProps={{ type: 'number', min: 1 }}
             />
             <TextFieldWithDesc
               value={values.height}
               onOwnChange={(v) => updateField('height', v)}
-              description="Height (px)"
+              description={t('crop.heightDesc')}
               inputProps={{ type: 'number', min: 1 }}
             />
           </Box>
@@ -62,13 +62,13 @@ export default function CropJpg({ title }: ToolComponentProps) {
             <TextFieldWithDesc
               value={values.x}
               onOwnChange={(v) => updateField('x', v)}
-              description="X position (px)"
+              description={t('crop.xDesc')}
               inputProps={{ type: 'number', min: 0 }}
             />
             <TextFieldWithDesc
               value={values.y}
               onOwnChange={(v) => updateField('y', v)}
-              description="Y position (px)"
+              description={t('crop.yDesc')}
               inputProps={{ type: 'number', min: 0 }}
             />
           </Box>
