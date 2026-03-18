@@ -8,6 +8,7 @@ import { tool as jsonComparison } from './json-comparison/meta';
 import { tool as jsonToCsv } from './json-to-csv/meta';
 import { tool as jsonToYaml } from './json-to-yaml/meta';
 import { tool as yamlToJson } from './yaml-to-json/meta';
+import { tool as excelToJson } from './excel-to-json/meta';
 
 export const jsonTools = [
   validateJson,
@@ -19,5 +20,6 @@ export const jsonTools = [
   escapeJson,
   jsonComparison,
   jsonToYaml,
-  yamlToJson
+  yamlToJson,
+  excelToJson
 ];

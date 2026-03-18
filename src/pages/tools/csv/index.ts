@@ -9,6 +9,8 @@ import { tool as csvToRowsColumns } from './csv-rows-to-columns/meta';
 import { tool as csvToTsv } from './csv-to-tsv/meta';
 import { tool as tsvToJson } from './tsv-to-json/meta';
 import { tool as swapCsvColumns } from './swap-csv-columns/meta';
+import { tool as csvToExcel } from './csv-to-excel/meta';
+import { tool as excelToCsv } from './excel-to-csv/meta';
 
 export const csvTools = [
   csvToJson,
@@ -21,5 +23,7 @@ export const csvTools = [
   findIncompleteCsvRecords,
   transposeCsv,
   insertCsvColumns,
-  tsvToJson
+  tsvToJson,
+  csvToExcel,
+  excelToCsv
 ];

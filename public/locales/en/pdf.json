@@ -115,5 +115,74 @@
       "description": "This tool allows you to extract specific pages from a PDF document. You can specify individual pages or ranges of pages to extract.",
       "title": "Split PDF"
     }
+  },
+  "wordToPdf": {
+    "title": "Word to PDF",
+    "description": "Convert Word documents (DOCX) to PDF format in your browser.",
+    "shortDescription": "Convert DOCX files to PDF",
+    "inputTitle": "Word document (.docx)",
+    "resultTitle": "Result PDF"
+  },
+  "excelToPdf": {
+    "title": "Excel to PDF",
+    "description": "Convert Excel spreadsheets (XLSX) to PDF format in your browser.",
+    "shortDescription": "Convert Excel files to PDF",
+    "inputTitle": "Excel file (.xlsx)",
+    "resultTitle": "Result PDF"
+  },
+  "pdfToWord": {
+    "title": "PDF to Word",
+    "description": "Extract text from PDF and create a Word document (DOCX).",
+    "shortDescription": "Convert PDF to Word document",
+    "inputTitle": "PDF file",
+    "resultTitle": "Result Word document"
+  },
+  "pdfToExcel": {
+    "title": "PDF to Excel",
+    "description": "Extract data from PDF and create an Excel spreadsheet (XLSX).",
+    "shortDescription": "Convert PDF to Excel spreadsheet",
+    "inputTitle": "PDF file",
+    "resultTitle": "Result Excel file"
+  },
+  "wordToHtml": {
+    "title": "Word to HTML",
+    "description": "Convert Word documents (DOCX) to HTML pages.",
+    "shortDescription": "Convert DOCX to HTML",
+    "inputTitle": "Word document (.docx)",
+    "resultTitle": "Result HTML"
+  },
+  "pdfToText": {
+    "title": "PDF to Text",
+    "description": "Extract plain text from all pages of a PDF document.",
+    "shortDescription": "Extract text from PDF",
+    "inputTitle": "PDF file",
+    "resultTitle": "Extracted text"
+  },
+  "docxStats": {
+    "title": "Word Document Statistics",
+    "description": "Analyze Word documents - word count, character count, pages, paragraphs and estimated reading time.",
+    "shortDescription": "Word and page count in DOCX",
+    "inputTitle": "Word document (.docx)",
+    "resultTitle": "Document statistics"
+  },
+  "mergeWord": {
+    "title": "Merge Word Documents",
+    "description": "Merge multiple Word documents (DOCX) into one file.",
+    "shortDescription": "Combine multiple DOCX files",
+    "inputTitle": "Word documents",
+    "resultTitle": "Merged document",
+    "addFiles": "Add files",
+    "merge": "Merge",
+    "files": "files"
+  },
+  "mergeExcel": {
+    "title": "Merge Excel Files",
+    "description": "Merge multiple Excel files (XLSX) into one workbook. Each file becomes a separate sheet.",
+    "shortDescription": "Combine multiple Excel files",
+    "inputTitle": "Excel files",
+    "resultTitle": "Merged Excel",
+    "addFiles": "Add files",
+    "merge": "Merge",
+    "files": "files"
   }
 }

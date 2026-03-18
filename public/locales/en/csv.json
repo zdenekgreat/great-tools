@@ -121,5 +121,19 @@
     "description": "Convert TSV (Tab-Separated Values) data to JSON format. Transform tabular data into structured JSON objects.",
     "shortDescription": "Convert TSV to JSON format",
     "title": "TSV to JSON"
+  },
+  "excelToCsv": {
+    "title": "Excel to CSV",
+    "description": "Convert Excel spreadsheets (XLSX) to CSV format.",
+    "shortDescription": "Convert Excel to CSV",
+    "inputTitle": "Excel file (.xlsx)",
+    "resultTitle": "Result CSV"
+  },
+  "csvToExcel": {
+    "title": "CSV to Excel",
+    "description": "Convert CSV files to Excel format (XLSX).",
+    "shortDescription": "Convert CSV to Excel",
+    "inputTitle": "CSV file",
+    "resultTitle": "Result Excel file"
   }
 }

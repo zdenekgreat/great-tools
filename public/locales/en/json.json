@@ -103,5 +103,12 @@
     "shortDescription": "Convert YAML to JSON",
     "inputTitle": "Input YAML",
     "resultTitle": "JSON output"
+  },
+  "excelToJson": {
+    "title": "Excel to JSON",
+    "description": "Convert Excel spreadsheets (XLSX) to JSON format.",
+    "shortDescription": "Convert Excel to JSON",
+    "inputTitle": "Excel file (.xlsx)",
+    "resultTitle": "Result JSON"
   }
 }

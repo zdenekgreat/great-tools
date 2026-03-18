@@ -7,6 +7,8 @@ import { tool as numberByteConverter } from './byte-converter/meta';
 import { tool as numberVatCalculator } from './vat-calculator/meta';
 import { tool as numberUnitConverter } from './unit-converter/meta';
 import { tool as numberBmiCalculator } from './bmi-calculator/meta';
+import { tool as numberFuelCostCalculator } from './fuel-cost-calculator/meta';
+import { tool as numberCurrencyConverter } from './currency-converter/meta';
 import { tools as genericCalcTools } from './generic-calc/meta';
 
 export const numberTools = [
@@ -19,5 +21,7 @@ export const numberTools = [
   numberVatCalculator,
   numberUnitConverter,
   numberBmiCalculator,
+  numberFuelCostCalculator,
+  numberCurrencyConverter,
   ...genericCalcTools
 ];

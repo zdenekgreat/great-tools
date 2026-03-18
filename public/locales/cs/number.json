@@ -231,5 +231,29 @@
     "resultTitle": "Výsledek BMI",
     "height": "Výška (cm)",
     "heightDescription": "Vaše výška v centimetrech"
+  },
+  "fuelCostCalculator": {
+    "title": "Kalkulačka ceny jízdy",
+    "description": "Vypočítejte náklady na cestu autem. Zadejte cenu paliva, vzdálenost a průměrnou spotřebu pro výpočet celkové ceny cesty.",
+    "shortDescription": "Výpočet nákladů na cestu autem",
+    "resultTitle": "Náklady na cestu",
+    "tripSettings": "Nastavení cesty",
+    "distanceDescription": "Vzdálenost cesty v kilometrech",
+    "roundTrip": "Tam a zpět",
+    "roundTripDescription": "Vypočítat cestu tam i zpět (dvojnásobná vzdálenost)",
+    "fuelSettings": "Nastavení paliva",
+    "fuelPriceDescription": "Cena paliva v Kč za litr",
+    "consumptionDescription": "Průměrná spotřeba v litrech na 100 km",
+    "passengerSettings": "Cestující",
+    "passengersDescription": "Počet cestujících pro rozdělení nákladů"
+  },
+  "currencyConverter": {
+    "title": "Převodník měn",
+    "description": "Převod měn podle aktuálního kurzu České národní banky. Podporuje EUR, USD, GBP a desítky dalších měn.",
+    "shortDescription": "Převod měn dle aktuálního kurzu ČNB",
+    "inputTitle": "Částka",
+    "resultTitle": "Výsledek převodu",
+    "fromCurrency": "Z měny",
+    "toCurrency": "Na měnu"
   }
 }

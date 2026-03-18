@@ -122,5 +122,25 @@
     "description": "Otočení obrázku o zadaný úhel.",
     "shortDescription": "Snadné otočení obrázku.",
     "title": "Otočit obrázek"
+  },
+  "flip": {
+    "title": "Převrátit obrázek",
+    "description": "Převrácení obrázku horizontálně (zrcadlení) nebo vertikálně (vzhůru nohama). Ideální pro opravu orientace nebo vytváření zrcadlových efektů.",
+    "shortDescription": "Převrácení obrázku horizontálně nebo vertikálně",
+    "inputTitle": "Vstupní obrázek",
+    "resultTitle": "Převrácený obrázek",
+    "directionTitle": "Směr převrácení",
+    "horizontal": "Horizontálně (Zrcadlo)",
+    "horizontalDescription": "Převrátit obrázek zleva doprava",
+    "vertical": "Vertikálně (Vzhůru nohama)",
+    "verticalDescription": "Převrátit obrázek shora dolů"
+  },
+  "colorPicker": {
+    "title": "Výběr barvy z obrázku",
+    "description": "Nahrajte obrázek a kliknutím vyberte barvu. Zobrazí HEX, RGB, HSL, HSV a CMYK formáty, barevné harmonie a kontrolu kontrastu textu.",
+    "shortDescription": "Výběr a analýza barev z obrázku",
+    "inputTitle": "Nahrajte obrázek",
+    "resultTitle": "Informace o barvě",
+    "hover": "Kurzor"
   }
 }

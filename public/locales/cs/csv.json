@@ -121,5 +121,19 @@
     "description": "Převod TSV (Tab-Separated Values) dat do JSON formátu. Transformace tabulkových dat na strukturované JSON objekty.",
     "shortDescription": "Převod TSV do JSON formátu",
     "title": "TSV na JSON"
+  },
+  "excelToCsv": {
+    "title": "Excel do CSV",
+    "description": "Převod Excel tabulek (XLSX) do formátu CSV.",
+    "shortDescription": "Převod Excel na CSV",
+    "inputTitle": "Excel soubor (.xlsx)",
+    "resultTitle": "Výsledné CSV"
+  },
+  "csvToExcel": {
+    "title": "CSV do Excel",
+    "description": "Převod CSV souborů do formátu Excel (XLSX).",
+    "shortDescription": "Převod CSV na Excel",
+    "inputTitle": "CSV soubor",
+    "resultTitle": "Výsledný Excel soubor"
   }
 }

@@ -115,5 +115,74 @@
       "description": "Tento nástroj umožňuje extrahovat konkrétní stránky z PDF dokumentu. Můžete zadat jednotlivé stránky nebo rozsahy stránek k extrakci.",
       "title": "Rozdělit PDF"
     }
+  },
+  "wordToPdf": {
+    "title": "Word do PDF",
+    "description": "Převod dokumentů Word (DOCX) do formátu PDF přímo v prohlížeči.",
+    "shortDescription": "Převod DOCX souborů na PDF",
+    "inputTitle": "Word dokument (.docx)",
+    "resultTitle": "Výsledné PDF"
+  },
+  "excelToPdf": {
+    "title": "Excel do PDF",
+    "description": "Převod tabulek Excel (XLSX) do formátu PDF přímo v prohlížeči.",
+    "shortDescription": "Převod Excel souborů na PDF",
+    "inputTitle": "Excel soubor (.xlsx)",
+    "resultTitle": "Výsledné PDF"
+  },
+  "pdfToWord": {
+    "title": "PDF do Word",
+    "description": "Extrakce textu z PDF a vytvoření dokumentu Word (DOCX).",
+    "shortDescription": "Převod PDF na Word dokument",
+    "inputTitle": "PDF soubor",
+    "resultTitle": "Výsledný Word dokument"
+  },
+  "pdfToExcel": {
+    "title": "PDF do Excel",
+    "description": "Extrakce dat z PDF a vytvoření tabulky Excel (XLSX).",
+    "shortDescription": "Převod PDF na Excel tabulku",
+    "inputTitle": "PDF soubor",
+    "resultTitle": "Výsledný Excel soubor"
+  },
+  "wordToHtml": {
+    "title": "Word do HTML",
+    "description": "Převod dokumentů Word (DOCX) na HTML stránku.",
+    "shortDescription": "Převod DOCX na HTML",
+    "inputTitle": "Word dokument (.docx)",
+    "resultTitle": "Výsledné HTML"
+  },
+  "pdfToText": {
+    "title": "PDF do textu",
+    "description": "Extrakce čistého textu ze všech stránek PDF dokumentu.",
+    "shortDescription": "Extrakce textu z PDF",
+    "inputTitle": "PDF soubor",
+    "resultTitle": "Extrahovaný text"
+  },
+  "docxStats": {
+    "title": "Statistiky Word dokumentu",
+    "description": "Analýza Word dokumentu – počet slov, znaků, stránek, odstavců a odhadovaná doba čtení.",
+    "shortDescription": "Počet slov a stránek v DOCX",
+    "inputTitle": "Word dokument (.docx)",
+    "resultTitle": "Statistiky dokumentu"
+  },
+  "mergeWord": {
+    "title": "Sloučit Word dokumenty",
+    "description": "Sloučení více Word dokumentů (DOCX) do jednoho souboru.",
+    "shortDescription": "Spojení více DOCX souborů",
+    "inputTitle": "Word dokumenty",
+    "resultTitle": "Sloučený dokument",
+    "addFiles": "Přidat soubory",
+    "merge": "Sloučit",
+    "files": "souborů"
+  },
+  "mergeExcel": {
+    "title": "Sloučit Excel soubory",
+    "description": "Sloučení více Excel souborů (XLSX) do jednoho sešitu. Každý soubor bude jako samostatný list.",
+    "shortDescription": "Spojení více Excel souborů",
+    "inputTitle": "Excel soubory",
+    "resultTitle": "Sloučený Excel",
+    "addFiles": "Přidat soubory",
+    "merge": "Sloučit",
+    "files": "souborů"
   }
 }

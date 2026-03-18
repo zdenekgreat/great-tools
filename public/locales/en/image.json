@@ -122,5 +122,25 @@
     "description": "Rotate an image by a specified angle.",
     "shortDescription": "Rotate an image easily.",
     "title": "Rotate Image"
+  },
+  "flip": {
+    "title": "Flip Image",
+    "description": "Flip images horizontally (mirror) or vertically (upside down). Perfect for correcting orientation or creating mirror effects.",
+    "shortDescription": "Flip image horizontally or vertically",
+    "inputTitle": "Input Image",
+    "resultTitle": "Flipped Image",
+    "directionTitle": "Flip Direction",
+    "horizontal": "Horizontal (Mirror)",
+    "horizontalDescription": "Flip image from left to right",
+    "vertical": "Vertical (Upside Down)",
+    "verticalDescription": "Flip image from top to bottom"
+  },
+  "colorPicker": {
+    "title": "Color Picker from Image",
+    "description": "Upload an image and click to pick a color. Shows HEX, RGB, HSL, HSV and CMYK formats, color harmonies and text contrast check.",
+    "shortDescription": "Pick and analyze colors from images",
+    "inputTitle": "Upload Image",
+    "resultTitle": "Color Information",
+    "hover": "Cursor"
   }
 }

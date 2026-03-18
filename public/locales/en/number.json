@@ -231,5 +231,29 @@
     "resultTitle": "BMI Result",
     "height": "Height (cm)",
     "heightDescription": "Your height in centimeters"
+  },
+  "fuelCostCalculator": {
+    "title": "Fuel Cost Calculator",
+    "description": "Calculate the cost of a car trip. Enter fuel price, distance and average consumption to calculate total trip cost.",
+    "shortDescription": "Calculate car trip fuel costs",
+    "resultTitle": "Trip Cost",
+    "tripSettings": "Trip Settings",
+    "distanceDescription": "Trip distance in kilometers",
+    "roundTrip": "Round trip",
+    "roundTripDescription": "Calculate round trip (double the distance)",
+    "fuelSettings": "Fuel Settings",
+    "fuelPriceDescription": "Fuel price per liter",
+    "consumptionDescription": "Average consumption in liters per 100 km",
+    "passengerSettings": "Passengers",
+    "passengersDescription": "Number of passengers to split costs"
+  },
+  "currencyConverter": {
+    "title": "Currency Converter",
+    "description": "Convert currencies using live exchange rates from the Czech National Bank. Supports EUR, USD, GBP and dozens of other currencies.",
+    "shortDescription": "Convert currencies with live exchange rates",
+    "inputTitle": "Amount",
+    "resultTitle": "Conversion Result",
+    "fromCurrency": "From currency",
+    "toCurrency": "To currency"
   }
 }

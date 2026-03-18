@@ -102,5 +102,12 @@
     "shortDescription": "Převod YAML na JSON",
     "inputTitle": "Vstupní YAML",
     "resultTitle": "JSON výstup"
+  },
+  "excelToJson": {
+    "title": "Excel do JSON",
+    "description": "Převod Excel tabulek (XLSX) do formátu JSON.",
+    "shortDescription": "Převod Excel na JSON",
+    "inputTitle": "Excel soubor (.xlsx)",
+    "resultTitle": "Výsledný JSON"
   }
 }
