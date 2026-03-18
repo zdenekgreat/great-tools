@@ -153,7 +153,15 @@
     "shortDescription": "Výběr a analýza barev z obrázku",
     "inputTitle": "Nahrajte obrázek",
     "resultTitle": "Informace o barvě",
-    "hover": "Kurzor"
+    "hover": "Kurzor",
+    "tabPicker": "Výběr barvy",
+    "tabImage": "Barva z obrázku",
+    "selectedColor": "Vybraná barva",
+    "hexCode": "HEX kód",
+    "otherFormats": "Další formáty",
+    "editColor": "Upravit barvu",
+    "uploadImage": "Nahrát obrázek",
+    "paletteTitle": "Barevná paleta z obrázku"
   },
   "cropPng": {
     "title": "Oříznout PNG",

@@ -153,7 +153,15 @@
     "shortDescription": "Pick and analyze colors from images",
     "inputTitle": "Upload Image",
     "resultTitle": "Color Information",
-    "hover": "Cursor"
+    "hover": "Cursor",
+    "tabPicker": "Color Picker",
+    "tabImage": "Image Color Picker",
+    "selectedColor": "Selected Color",
+    "hexCode": "Hex Code",
+    "otherFormats": "Other Color Formats",
+    "editColor": "Edit Color",
+    "uploadImage": "Upload Image",
+    "paletteTitle": "Color palette from image"
   },
   "cropPng": {
     "title": "Crop PNG",

@@ -192,16 +192,16 @@ export default function ColorPicker({ title }: ToolComponentProps) {
         onChange={(_, v) => v && setMode(v)}
         sx={{ mb: 2 }}
       >
-        <ToggleButton value="picker">Color Picker</ToggleButton>
-        <ToggleButton value="image">Image Color Picker</ToggleButton>
+        <ToggleButton value="picker">{t('colorPicker.tabPicker')}</ToggleButton>
+        <ToggleButton value="image">{t('colorPicker.tabImage')}</ToggleButton>
       </ToggleButtonGroup>
 
       <Box display="flex" gap={3} flexWrap="wrap">
         {/* Left panel */}
         <Box sx={{ minWidth: 300, maxWidth: 380 }}>
-          {/* Selected Color Preview */}
+          {/* { t('colorPicker.selectedColor') } Preview */}
           <Typography variant="subtitle1" fontWeight="bold" mb={1}>
-            Selected Color
+            {t('colorPicker.selectedColor')}
           </Typography>
           <Paper
             sx={{
@@ -215,9 +215,9 @@ export default function ColorPicker({ title }: ToolComponentProps) {
             }}
           />
 
-          {/* Hex Code */}
+          {/* { t('colorPicker.hexCode') } */}
           <Typography variant="subtitle1" fontWeight="bold" mb={0.5}>
-            Hex Code
+            {t('colorPicker.hexCode')}
           </Typography>
           <Box display="flex" alignItems="center" gap={1} mb={2}>
             <Paper
@@ -239,7 +239,7 @@ export default function ColorPicker({ title }: ToolComponentProps) {
 
           {/* Other formats */}
           <Typography variant="subtitle1" fontWeight="bold" mb={0.5}>
-            Other Color Formats
+            {t('colorPicker.otherFormats')}
           </Typography>
           <ToggleButtonGroup
             value={formatTab}
@@ -276,7 +276,7 @@ export default function ColorPicker({ title }: ToolComponentProps) {
 
           {/* RGB Sliders */}
           <Typography variant="subtitle1" fontWeight="bold" mb={1}>
-            Edit Color
+            {t('colorPicker.editColor')}
           </Typography>
           <Box>
             {[
@@ -428,7 +428,7 @@ export default function ColorPicker({ title }: ToolComponentProps) {
       {mode === 'image' && palette.length > 0 && (
         <Box mt={4}>
           <Typography variant="h6" gutterBottom>
-            Color palette from image
+            {t('colorPicker.paletteTitle')}
           </Typography>
 
           {/* Palette strip */}
