@@ -40,7 +40,8 @@ export default function ColorPicker({ title }: ToolComponentProps) {
   const [palette, setPalette] = useState<{ r: number; g: number; b: number }[]>(
     []
   );
-  const [paletteFormat, setPaletteFormat] = useState<string>('hex');
+  const [paletteCount, setPaletteCount] = useState<number>(10);
+  const [fullImageData, setFullImageData] = useState<ImageData | null>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const imgRef = useRef<HTMLImageElement | null>(null);
 
@@ -141,7 +142,8 @@ export default function ColorPicker({ title }: ToolComponentProps) {
         ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
         // Extract palette
         const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-        const colors = extractPalette(imageData, 10);
+        setFullImageData(imageData);
+        const colors = extractPalette(imageData, paletteCount);
         setPalette(colors);
       };
       img.src = reader.result as string;
@@ -427,73 +429,163 @@ export default function ColorPicker({ title }: ToolComponentProps) {
       {/* Palette section (only when image mode and palette extracted) */}
       {mode === 'image' && palette.length > 0 && (
         <Box mt={4}>
+          {/* Palette strip with +/- and download */}
+          <Box display="flex" alignItems="center" mb={2}>
+            <Box display="flex" flexDirection="column" mr={1}>
+              <Button
+                size="small"
+                variant="contained"
+                sx={{ minWidth: 32, px: 0, py: 0.3, mb: 0.3 }}
+                onClick={() => {
+                  const newCount = Math.min(paletteCount + 1, 20);
+                  setPaletteCount(newCount);
+                  if (fullImageData)
+                    setPalette(extractPalette(fullImageData, newCount));
+                }}
+              >
+                +
+              </Button>
+              <Button
+                size="small"
+                variant="contained"
+                sx={{ minWidth: 32, px: 0, py: 0.3 }}
+                onClick={() => {
+                  const newCount = Math.max(paletteCount - 1, 2);
+                  setPaletteCount(newCount);
+                  if (fullImageData)
+                    setPalette(extractPalette(fullImageData, newCount));
+                }}
+              >
+                -
+              </Button>
+            </Box>
+            <Box
+              display="flex"
+              flex={1}
+              sx={{ borderRadius: 1, overflow: 'hidden' }}
+            >
+              {palette.map((c, i) => (
+                <Tooltip key={i} title={rgbToHex(c.r, c.g, c.b).toUpperCase()}>
+                  <Box
+                    sx={{
+                      flex: 1,
+                      height: 50,
+                      backgroundColor: rgbToHex(c.r, c.g, c.b),
+                      cursor: 'pointer',
+                      '&:hover': { opacity: 0.8 }
+                    }}
+                    onClick={() => setColorFromRgb(c.r, c.g, c.b)}
+                  />
+                </Tooltip>
+              ))}
+            </Box>
+            <IconButton
+              sx={{ ml: 1 }}
+              onClick={() => {
+                const allFormats = [
+                  'hex',
+                  'rgb',
+                  'html',
+                  'css',
+                  'scss',
+                  'hsv',
+                  'hsl',
+                  'cmyk'
+                ]
+                  .map(
+                    (f) =>
+                      `=== ${f.toUpperCase()} ===\n${formatPaletteAs(
+                        palette,
+                        f
+                      )}`
+                  )
+                  .join('\n\n');
+                const blob = new Blob([allFormats], { type: 'text/plain' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'color-palette.txt';
+                a.click();
+                URL.revokeObjectURL(url);
+              }}
+            >
+              <Typography sx={{ fontSize: 20 }}>⬇</Typography>
+            </IconButton>
+          </Box>
+
+          {/* Export Colors heading */}
           <Typography variant="h6" gutterBottom>
-            {t('colorPicker.paletteTitle')}
+            {t('colorPicker.exportColors') || 'Export Colors'}
           </Typography>
 
-          {/* Palette strip */}
+          {/* Palette strip repeated */}
           <Box
             display="flex"
-            mb={2}
+            mb={3}
             sx={{ borderRadius: 1, overflow: 'hidden' }}
           >
             {palette.map((c, i) => (
-              <Tooltip key={i} title={rgbToHex(c.r, c.g, c.b).toUpperCase()}>
-                <Box
-                  sx={{
-                    flex: 1,
-                    height: 50,
-                    backgroundColor: rgbToHex(c.r, c.g, c.b),
-                    cursor: 'pointer',
-                    '&:hover': { opacity: 0.8 }
-                  }}
-                  onClick={() => setColorFromRgb(c.r, c.g, c.b)}
-                />
-              </Tooltip>
+              <Box
+                key={i}
+                sx={{
+                  flex: 1,
+                  height: 30,
+                  backgroundColor: rgbToHex(c.r, c.g, c.b)
+                }}
+              />
             ))}
           </Box>
 
-          {/* Format selector */}
-          <ToggleButtonGroup
-            value={paletteFormat}
-            exclusive
-            onChange={(_, v) => v && setPaletteFormat(v)}
-            size="small"
-            sx={{ mb: 2 }}
-          >
-            <ToggleButton value="hex">HEX</ToggleButton>
-            <ToggleButton value="rgb">RGB</ToggleButton>
-            <ToggleButton value="html">HTML</ToggleButton>
-            <ToggleButton value="css">CSS</ToggleButton>
-            <ToggleButton value="scss">SCSS</ToggleButton>
-            <ToggleButton value="hsv">HSV</ToggleButton>
-            <ToggleButton value="hsl">HSL</ToggleButton>
-            <ToggleButton value="cmyk">CMYK</ToggleButton>
-          </ToggleButtonGroup>
-
-          {/* Palette in selected format */}
-          <Box display="flex" alignItems="flex-start" gap={1}>
-            <Paper
-              sx={{
-                p: 2,
-                flex: 1,
-                fontFamily: 'monospace',
-                fontSize: 13,
-                whiteSpace: 'pre-wrap',
-                backgroundColor: 'background.default'
-              }}
-            >
-              {formatPaletteAs(palette, paletteFormat)}
-            </Paper>
-            <IconButton
-              color="primary"
-              onClick={() =>
-                copyToClipboard(formatPaletteAs(palette, paletteFormat))
-              }
-            >
-              <ContentCopyIcon />
-            </IconButton>
-          </Box>
+          {/* All formats in grid */}
+          <Grid container spacing={2}>
+            {(
+              [
+                'hex',
+                'rgb',
+                'html',
+                'css',
+                'scss',
+                'hsv',
+                'hsl',
+                'cmyk'
+              ] as const
+            ).map((fmt) => (
+              <Grid item xs={12} sm={6} md={4} key={fmt}>
+                <Paper
+                  sx={{
+                    p: 2,
+                    position: 'relative',
+                    height: '100%',
+                    backgroundColor: 'background.default'
+                  }}
+                >
+                  <Typography variant="subtitle1" fontWeight="bold" mb={1}>
+                    {fmt.toUpperCase()}
+                  </Typography>
+                  <Box
+                    sx={{
+                      fontFamily: 'monospace',
+                      fontSize: 12,
+                      whiteSpace: 'pre-wrap',
+                      lineHeight: 1.8
+                    }}
+                  >
+                    {formatPaletteAs(palette, fmt)}
+                  </Box>
+                  <Button
+                    variant="contained"
+                    size="small"
+                    sx={{ position: 'absolute', top: 12, right: 12 }}
+                    onClick={() =>
+                      copyToClipboard(formatPaletteAs(palette, fmt))
+                    }
+                  >
+                    Copy
+                  </Button>
+                </Paper>
+              </Grid>
+            ))}
+          </Grid>
         </Box>
       )}
     </Box>

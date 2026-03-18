@@ -161,7 +161,8 @@
     "otherFormats": "Další formáty",
     "editColor": "Upravit barvu",
     "uploadImage": "Nahrát obrázek",
-    "paletteTitle": "Barevná paleta z obrázku"
+    "paletteTitle": "Barevná paleta z obrázku",
+    "exportColors": "Export barev"
   },
   "cropPng": {
     "title": "Oříznout PNG",

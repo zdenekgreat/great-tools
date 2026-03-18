@@ -161,7 +161,8 @@
     "otherFormats": "Other Color Formats",
     "editColor": "Edit Color",
     "uploadImage": "Upload Image",
-    "paletteTitle": "Color palette from image"
+    "paletteTitle": "Color palette from image",
+    "exportColors": "Export Colors"
   },
   "cropPng": {
     "title": "Crop PNG",
