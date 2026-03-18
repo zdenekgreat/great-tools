@@ -84,15 +84,15 @@
     "brand": "オムニツール",
     "description": "作業を素早く完了するための究極のツールキット、Great Tools で生産性を飛躍的に向上させましょう。画像、テキスト、リスト、データを編集するための数千もの使いやすいユーティリティに、ブラウザから直接アクセスできます。",
     "examples": {
-      "calculateNumberSum": "数値の合計を計算する",
-      "changeGifSpeed": "GIFの速度を変更する",
-      "compressPng": "PNGを圧縮",
-      "createTransparentImage": "透明な画像を作成する",
-      "prettifyJson": "JSONを美しくする",
-      "sortList": "リストを並べ替える",
-      "splitPdf": "PDFを分割",
-      "splitText": "テキストを分割する",
-      "trimVideo": "ビデオをトリミングする"
+      "imageEditor": "画像エディター",
+      "cropImage": "画像を切り抜く",
+      "imageToText": "画像からテキスト",
+      "pdfEditor": "PDFエディター",
+      "convertToPdf": "PDFに変換",
+      "wordToPdf": "WordからPDF",
+      "passwordGenerator": "パスワード生成",
+      "vatCalculator": "消費税計算機",
+      "fuelCostCalculator": "燃料費計算機"
     },
     "searchPlaceholder": "すべてのツールを検索",
     "title": "物事を素早く終わらせる"

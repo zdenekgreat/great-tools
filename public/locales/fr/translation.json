@@ -84,15 +84,15 @@
     "brand": "Great Tools",
     "description": "Boostez votre productivité avec Great Tools, la boîte à outils ultime pour accélérer vos tâches ! Accédez à des milliers d'utilitaires conviviaux pour modifier des images, du texte, des listes et des données, directement depuis votre navigateur.",
     "examples": {
-      "calculateNumberSum": "Calculer la somme des nombres",
-      "changeGifSpeed": "Modifier la vitesse du GIF",
-      "compressPng": "Compresser PNG",
-      "createTransparentImage": "Créer une image transparente",
-      "prettifyJson": "Embellir JSON",
-      "sortList": "Trier une liste",
-      "splitPdf": "Diviser le PDF",
-      "splitText": "Diviser un texte",
-      "trimVideo": "Découper la vidéo"
+      "imageEditor": "Éditeur d'images",
+      "cropImage": "Rogner une image",
+      "imageToText": "Image en texte",
+      "pdfEditor": "Éditeur PDF",
+      "convertToPdf": "Convertir en PDF",
+      "wordToPdf": "Word en PDF",
+      "passwordGenerator": "Générateur de mots de passe",
+      "vatCalculator": "Calculateur de TVA",
+      "fuelCostCalculator": "Calculateur de coût de trajet"
     },
     "searchPlaceholder": "Rechercher tous les outils",
     "title": "Faites avancer les choses rapidement avec"

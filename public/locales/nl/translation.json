@@ -84,15 +84,15 @@
     "brand": "Great Tools",
     "description": "Verhoog je productiviteit met Great Tools, de ultieme toolkit om snel aan de slag te gaan! Krijg toegang tot duizenden gebruiksvriendelijke tools voor het bewerken van afbeeldingen, tekst, lijsten en gegevens, allemaal rechtstreeks vanuit je browser.",
     "examples": {
-      "calculateNumberSum": "Bereken de getallensom",
-      "changeGifSpeed": "GIF-snelheid wijzigen",
-      "compressPng": "PNG comprimeren",
-      "createTransparentImage": "Een transparante afbeelding maken",
-      "prettifyJson": "JSON verfraaien",
-      "sortList": "Een lijst sorteren",
-      "splitPdf": "PDF splitsen",
-      "splitText": "Een tekst splitsen",
-      "trimVideo": "Video bijsnijden"
+      "imageEditor": "Afbeeldingseditor",
+      "cropImage": "Afbeelding bijsnijden",
+      "imageToText": "Afbeelding naar tekst",
+      "pdfEditor": "PDF-editor",
+      "convertToPdf": "Converteren naar PDF",
+      "wordToPdf": "Word naar PDF",
+      "passwordGenerator": "Wachtwoordgenerator",
+      "vatCalculator": "BTW-calculator",
+      "fuelCostCalculator": "Brandstofkostencalculator"
     },
     "searchPlaceholder": "Zoek in alle tools",
     "title": "Krijg dingen snel gedaan met"

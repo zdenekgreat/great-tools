@@ -96,15 +96,15 @@
     "brand": "Great Tools",
     "description": "Boost your productivity with Great Tools, the ultimate toolkit for getting things done quickly! Access thousands of user-friendly utilities for editing images, text, lists, and data, all directly from your browser.",
     "examples": {
-      "calculateNumberSum": "Calculate number sum",
-      "changeGifSpeed": "Change GIF speed",
-      "compressPng": "Compress PNG",
-      "createTransparentImage": "Create a transparent image",
-      "prettifyJson": "Prettify JSON",
-      "sortList": "Sort a list",
-      "splitPdf": "Split PDF",
-      "splitText": "Split a text",
-      "trimVideo": "Trim video"
+      "imageEditor": "Image Editor",
+      "cropImage": "Crop Image",
+      "imageToText": "Image to Text",
+      "pdfEditor": "PDF Editor",
+      "convertToPdf": "Convert to PDF",
+      "wordToPdf": "Word to PDF",
+      "passwordGenerator": "Password Generator",
+      "vatCalculator": "VAT Calculator",
+      "fuelCostCalculator": "Fuel Cost Calculator"
     },
     "searchPlaceholder": "Search all tools",
     "title": "Get Things Done Quickly with"

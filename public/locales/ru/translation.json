@@ -84,15 +84,15 @@
     "brand": "Great Tools",
     "description": "Повысьте свою производительность с Great Tools — лучшим набором инструментов для быстрого решения задач! Получите доступ к тысячам удобных утилит для редактирования изображений, текста, списков и данных — и всё это прямо в браузере.",
     "examples": {
-      "calculateNumberSum": "Вычислить сумму чисел",
-      "changeGifSpeed": "Изменить скорость GIF-анимации",
-      "compressPng": "Сжать PNG",
-      "createTransparentImage": "Создать прозрачное изображение",
-      "prettifyJson": "Отформатировать JSON",
-      "sortList": "Сортировать список",
-      "splitPdf": "Разделить PDF",
-      "splitText": "Разделить текст",
-      "trimVideo": "Обрезать видео"
+      "imageEditor": "Редактор изображений",
+      "cropImage": "Обрезать изображение",
+      "imageToText": "Текст из изображения",
+      "pdfEditor": "Редактор PDF",
+      "convertToPdf": "Конвертировать в PDF",
+      "wordToPdf": "Word в PDF",
+      "passwordGenerator": "Генератор паролей",
+      "vatCalculator": "Калькулятор НДС",
+      "fuelCostCalculator": "Калькулятор стоимости поездки"
     },
     "searchPlaceholder": "Найти инструмент…",
     "title": "Выполняйте задачи быстро с помощью"

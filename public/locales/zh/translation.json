@@ -89,15 +89,15 @@
     "brand": "Great Tools",
     "description": "使用 Great Tools 提升您的工作效率，这是一款快速完成任务的终极工具包！数千个用户友好的实用程序，可直接通过浏览器编辑图像、文本、列表和数据。",
     "examples": {
-      "calculateNumberSum": "计算数字和",
-      "changeGifSpeed": "更改 GIF 速度",
-      "compressPng": "压缩 PNG",
-      "createTransparentImage": "创建透明图像",
-      "prettifyJson": "美化 JSON",
-      "sortList": "对列表进行排序",
-      "splitPdf": "拆分 PDF",
-      "splitText": "拆分文本",
-      "trimVideo": "修剪视频"
+      "imageEditor": "图片编辑器",
+      "cropImage": "裁剪图片",
+      "imageToText": "图片转文字",
+      "pdfEditor": "PDF编辑器",
+      "convertToPdf": "转换为PDF",
+      "wordToPdf": "Word转PDF",
+      "passwordGenerator": "密码生成器",
+      "vatCalculator": "增值税计算器",
+      "fuelCostCalculator": "油费计算器"
     },
     "searchPlaceholder": "搜索所有工具",
     "title": "快速完成工作"

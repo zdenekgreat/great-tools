@@ -96,15 +96,15 @@
     "brand": "Great Tools",
     "description": "Zvyšte svou produktivitu s Great Tools, dokonalou sadou nástrojů pro rychlé dokončení úkolů! Přistupujte k tisícům uživatelsky přívětivých utilit pro úpravu obrázků, textu, seznamů a dat, vše přímo z vašeho prohlížeče.",
     "examples": {
-      "calculateNumberSum": "Vypočítat součet čísel",
-      "changeGifSpeed": "Změnit rychlost GIFu",
-      "compressPng": "Komprimovat PNG",
-      "createTransparentImage": "Vytvořit průhledný obrázek",
-      "prettifyJson": "Formátovat JSON",
-      "sortList": "Seřadit seznam",
-      "splitPdf": "Rozdělit PDF",
-      "splitText": "Rozdělit text",
-      "trimVideo": "Oříznout video"
+      "imageEditor": "Editor obrázků",
+      "cropImage": "Oříznout obrázek",
+      "imageToText": "Text z obrázku",
+      "pdfEditor": "Editor PDF",
+      "convertToPdf": "Převést do PDF",
+      "wordToPdf": "Word do PDF",
+      "passwordGenerator": "Generátor hesel",
+      "vatCalculator": "Kalkulačka DPH",
+      "fuelCostCalculator": "Kalkulačka ceny jízdy"
     },
     "searchPlaceholder": "Hledat všechny nástroje",
     "title": "Vyřešte věci rychle s"

@@ -60,40 +60,40 @@ export default function Hero() {
 
   const exampleTools: ToolInfo[] = [
     {
-      label: 'translation:hero.examples.createTransparentImage',
-      url: '/image-generic/create-transparent'
+      label: 'translation:hero.examples.imageEditor',
+      url: '/image-generic/editor'
     },
     {
-      label: 'translation:hero.examples.prettifyJson',
-      url: '/json/prettify'
+      label: 'translation:hero.examples.cropImage',
+      url: '/image-generic/crop'
     },
     {
-      label: 'translation:hero.examples.changeGifSpeed',
-      url: '/gif/change-speed'
+      label: 'translation:hero.examples.imageToText',
+      url: '/image-generic/image-to-text'
     },
     {
-      label: 'translation:hero.examples.sortList',
-      url: '/list/sort'
+      label: 'translation:hero.examples.pdfEditor',
+      url: '/pdf/editor'
     },
     {
-      label: 'translation:hero.examples.compressPng',
-      url: '/png/compress-png'
+      label: 'translation:hero.examples.convertToPdf',
+      url: '/pdf/convert-to-pdf'
     },
     {
-      label: 'translation:hero.examples.splitText',
-      url: '/string/split'
+      label: 'translation:hero.examples.wordToPdf',
+      url: '/pdf/word-to-pdf'
     },
     {
-      label: 'translation:hero.examples.splitPdf',
-      url: '/pdf/split-pdf'
+      label: 'translation:hero.examples.passwordGenerator',
+      url: '/string/password-generator'
     },
     {
-      label: 'translation:hero.examples.trimVideo',
-      url: '/video/trim'
+      label: 'translation:hero.examples.vatCalculator',
+      url: '/number/vat-calculator'
     },
     {
-      label: 'translation:hero.examples.calculateNumberSum',
-      url: '/number/sum'
+      label: 'translation:hero.examples.fuelCostCalculator',
+      url: '/number/fuel-cost-calculator'
     }
   ];
 

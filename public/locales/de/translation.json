@@ -84,15 +84,15 @@
     "brand": "Great Tools",
     "description": "Steigern Sie Ihre Produktivität mit Great Tools, dem ultimativen Toolkit für schnelles Arbeiten! Greifen Sie direkt von Ihrem Browser aus auf Tausende benutzerfreundliche Dienstprogramme zum Bearbeiten von Bildern, Texten, Listen und Daten zu.",
     "examples": {
-      "calculateNumberSum": "Zahlensumme berechnen",
-      "changeGifSpeed": "GIF-Geschwindigkeit ändern",
-      "compressPng": "PNG komprimieren",
-      "createTransparentImage": "Erstellen Sie ein transparentes Bild",
-      "prettifyJson": "JSON verschönern",
-      "sortList": "Sortieren einer Liste",
-      "splitPdf": "PDF teilen",
-      "splitText": "Einen Text teilen",
-      "trimVideo": "Video zuschneiden"
+      "imageEditor": "Bildeditor",
+      "cropImage": "Bild zuschneiden",
+      "imageToText": "Bild zu Text",
+      "pdfEditor": "PDF-Editor",
+      "convertToPdf": "In PDF konvertieren",
+      "wordToPdf": "Word zu PDF",
+      "passwordGenerator": "Passwort-Generator",
+      "vatCalculator": "MwSt-Rechner",
+      "fuelCostCalculator": "Fahrkostenrechner"
     },
     "searchPlaceholder": "Alle Tools durchsuchen",
     "title": "Erledigen Sie Dinge schnell mit"

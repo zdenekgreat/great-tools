@@ -84,15 +84,15 @@
     "brand": "ओमनीटूल्स",
     "description": "ओमनीटूल्स के साथ अपनी उत्पादकता बढ़ाएं, जल्दी काम करने के लिए अंतिम टूलकिट! छवियों, टेक्स्ट, सूचियों और डेटा को संपादित करने के लिए हजारों उपयोगकर्ता-अनुकूल उपयोगिताओं तक पहुंचें, सभी सीधे अपने ब्राउज़र से।",
     "examples": {
-      "calculateNumberSum": "संख्याओं का योग करें",
-      "changeGifSpeed": "GIF गति बदलें",
-      "compressPng": "PNG संपीड़ित करें",
-      "createTransparentImage": "पारदर्शी छवि बनाएं",
-      "prettifyJson": "JSON सुंदर बनाएं",
-      "sortList": "सूची क्रमबद्ध करें",
-      "splitPdf": "PDF विभाजित करें",
-      "splitText": "टेक्स्ट विभाजित करें",
-      "trimVideo": "वीडियो ट्रिम करें"
+      "imageEditor": "छवि संपादक",
+      "cropImage": "छवि काटें",
+      "imageToText": "छवि से पाठ",
+      "pdfEditor": "PDF संपादक",
+      "convertToPdf": "PDF में बदलें",
+      "wordToPdf": "Word से PDF",
+      "passwordGenerator": "पासवर्ड जनरेटर",
+      "vatCalculator": "VAT कैलकुलेटर",
+      "fuelCostCalculator": "ईंधन लागत कैलकुलेटर"
     },
     "searchPlaceholder": "सभी टूल्स खोजें",
     "title": "के साथ जल्दी काम करें"
