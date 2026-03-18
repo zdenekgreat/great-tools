@@ -9,6 +9,7 @@ import { tool as numberUnitConverter } from './unit-converter/meta';
 import { tool as numberBmiCalculator } from './bmi-calculator/meta';
 import { tool as numberFuelCostCalculator } from './fuel-cost-calculator/meta';
 import { tool as numberCurrencyConverter } from './currency-converter/meta';
+import { tool as numberQrPayment } from './qr-payment/meta';
 import { tools as genericCalcTools } from './generic-calc/meta';
 
 export const numberTools = [
@@ -23,5 +24,6 @@ export const numberTools = [
   numberBmiCalculator,
   numberFuelCostCalculator,
   numberCurrencyConverter,
+  numberQrPayment,
   ...genericCalcTools
 ];

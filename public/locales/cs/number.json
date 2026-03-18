@@ -255,5 +255,27 @@
     "resultTitle": "Výsledek převodu",
     "fromCurrency": "Z měny",
     "toCurrency": "Na měnu"
+  },
+  "qrPayment": {
+    "title": "QR Platba",
+    "description": "Vygenerujte QR kód pro rychlou bankovní platbu. Zadejte číslo účtu, částku a variabilní symbol – QR kód lze naskenovat bankovní aplikací.",
+    "shortDescription": "QR kód pro rychlou bankovní platbu",
+    "accountSection": "Účet příjemce",
+    "useIban": "Zadat IBAN přímo",
+    "useIbanDesc": "Zadat IBAN místo čísla účtu a kódu banky",
+    "ibanDesc": "IBAN (např. CZ6508000000192000145399)",
+    "accountNumberDesc": "Číslo účtu (např. 19-2000145399)",
+    "bankCodeDesc": "Kód banky (např. 0800)",
+    "paymentSection": "Platba",
+    "amountDesc": "Částka",
+    "currencyDesc": "Měna",
+    "vsDesc": "Variabilní symbol",
+    "ssDesc": "Specifický symbol",
+    "ksDesc": "Konstantní symbol",
+    "additionalSection": "Další údaje",
+    "messageDesc": "Zpráva pro příjemce",
+    "recipientDesc": "Jméno příjemce",
+    "downloadQr": "Stáhnout QR kód",
+    "enterAccount": "Zadejte číslo účtu pro vygenerování QR kódu"
   }
 }

@@ -255,5 +255,27 @@
     "resultTitle": "Conversion Result",
     "fromCurrency": "From currency",
     "toCurrency": "To currency"
+  },
+  "qrPayment": {
+    "title": "QR Payment",
+    "description": "Generate a QR code for quick bank payment. Enter account number, amount and variable symbol – QR code can be scanned by banking apps.",
+    "shortDescription": "QR code for quick bank payment",
+    "accountSection": "Recipient Account",
+    "useIban": "Enter IBAN directly",
+    "useIbanDesc": "Enter IBAN instead of account number and bank code",
+    "ibanDesc": "IBAN (e.g. CZ6508000000192000145399)",
+    "accountNumberDesc": "Account number (e.g. 19-2000145399)",
+    "bankCodeDesc": "Bank code (e.g. 0800)",
+    "paymentSection": "Payment",
+    "amountDesc": "Amount",
+    "currencyDesc": "Currency",
+    "vsDesc": "Variable symbol",
+    "ssDesc": "Specific symbol",
+    "ksDesc": "Constant symbol",
+    "additionalSection": "Additional Info",
+    "messageDesc": "Message for recipient",
+    "recipientDesc": "Recipient name",
+    "downloadQr": "Download QR Code",
+    "enterAccount": "Enter an account number to generate QR code"
   }
 }
