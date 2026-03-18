@@ -44,11 +44,22 @@
     "title": "Create transparent PNG"
   },
   "crop": {
-    "description": "Crop images to remove unwanted areas.",
+    "description": "Crop images to remove unwanted areas. Choose from dozens of aspect ratio presets for social media, print and monitors.",
     "inputTitle": "Input image",
     "resultTitle": "Cropped image",
-    "shortDescription": "Crop images quickly.",
-    "title": "Crop Image"
+    "shortDescription": "Crop images with social media presets",
+    "title": "Crop Image",
+    "aspectRatio": "Aspect Ratio",
+    "positionAndSize": "Position and Size",
+    "widthDesc": "Width (px)",
+    "heightDesc": "Height (px)",
+    "xDesc": "X position (px)",
+    "yDesc": "Y position (px)",
+    "shape": "Crop Shape",
+    "rectangular": "Rectangle",
+    "rectangularDesc": "Crop a rectangular area from image",
+    "circular": "Circle",
+    "circularDesc": "Crop a circular area from image"
   },
   "editor": {
     "description": "Advanced image editor with tools for cropping, rotating, annotating, adjusting colors, and adding watermarks. Edit your images with professional-grade tools directly in your browser.",
@@ -142,5 +153,29 @@
     "inputTitle": "Upload Image",
     "resultTitle": "Color Information",
     "hover": "Cursor"
+  },
+  "cropPng": {
+    "title": "Crop PNG",
+    "description": "Crop PNG images to specified dimensions.",
+    "shortDescription": "Crop PNG images",
+    "inputTitle": "Input PNG",
+    "resultTitle": "Cropped PNG",
+    "dimensions": "Crop Dimensions"
+  },
+  "cropJpg": {
+    "title": "Crop JPG",
+    "description": "Crop JPG/JPEG images to specified dimensions.",
+    "shortDescription": "Crop JPG images",
+    "inputTitle": "Input JPG",
+    "resultTitle": "Cropped JPG",
+    "dimensions": "Crop Dimensions"
+  },
+  "cropWebp": {
+    "title": "Crop WebP",
+    "description": "Crop WebP images to specified dimensions.",
+    "shortDescription": "Crop WebP images",
+    "inputTitle": "Input WebP",
+    "resultTitle": "Cropped WebP",
+    "dimensions": "Crop Dimensions"
   }
 }

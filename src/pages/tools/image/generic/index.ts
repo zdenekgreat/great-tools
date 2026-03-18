@@ -12,6 +12,8 @@ import { tool as convertToJpg } from './convert-to-jpg/meta';
 import { tool as imageEditor } from './editor/meta';
 import { tool as flipImage } from './flip/meta';
 import { tool as colorPicker } from './color-picker/meta';
+import { tool as cropJpg } from './crop-jpg/meta';
+import { tool as cropWebp } from './crop-webp/meta';
 export const imageGenericTools = [
   imageEditor,
   resizeImage,
@@ -26,5 +28,7 @@ export const imageGenericTools = [
   rotateImage,
   convertToJpg,
   flipImage,
-  colorPicker
+  colorPicker,
+  cropJpg,
+  cropWebp
 ];

@@ -44,11 +44,22 @@
     "title": "Vytvořit průhledný PNG"
   },
   "crop": {
-    "description": "Oříznutí obrázků pro odstranění nežádoucích oblastí.",
+    "description": "Oříznutí obrázků pro odstranění nežádoucích oblastí. Vyberte z desítek přednastavených poměrů stran pro sociální sítě, tisk a monitory.",
     "inputTitle": "Vstupní obrázek",
     "resultTitle": "Oříznutý obrázek",
-    "shortDescription": "Rychlé oříznutí obrázků.",
-    "title": "Oříznout obrázek"
+    "shortDescription": "Oříznutí obrázků s presety pro sociální sítě",
+    "title": "Oříznout obrázek",
+    "aspectRatio": "Poměr stran",
+    "positionAndSize": "Pozice a velikost",
+    "widthDesc": "Šířka (px)",
+    "heightDesc": "Výška (px)",
+    "xDesc": "Pozice X (px)",
+    "yDesc": "Pozice Y (px)",
+    "shape": "Tvar oříznutí",
+    "rectangular": "Obdélník",
+    "rectangularDesc": "Oříznout obdélníkový výřez z obrázku",
+    "circular": "Kruh",
+    "circularDesc": "Oříznout kruhový výřez z obrázku"
   },
   "editor": {
     "description": "Pokročilý editor obrázků s nástroji pro oříznutí, otočení, anotace, úpravu barev a přidání vodoznaků. Upravujte své obrázky profesionálními nástroji přímo ve vašem prohlížeči.",
@@ -142,5 +153,29 @@
     "inputTitle": "Nahrajte obrázek",
     "resultTitle": "Informace o barvě",
     "hover": "Kurzor"
+  },
+  "cropPng": {
+    "title": "Oříznout PNG",
+    "description": "Oříznutí PNG obrázků na zadané rozměry.",
+    "shortDescription": "Oříznutí PNG obrázků",
+    "inputTitle": "Vstupní PNG",
+    "resultTitle": "Oříznutý PNG",
+    "dimensions": "Rozměry oříznutí"
+  },
+  "cropJpg": {
+    "title": "Oříznout JPG",
+    "description": "Oříznutí JPG/JPEG obrázků na zadané rozměry.",
+    "shortDescription": "Oříznutí JPG obrázků",
+    "inputTitle": "Vstupní JPG",
+    "resultTitle": "Oříznutý JPG",
+    "dimensions": "Rozměry oříznutí"
+  },
+  "cropWebp": {
+    "title": "Oříznout WebP",
+    "description": "Oříznutí WebP obrázků na zadané rozměry.",
+    "shortDescription": "Oříznutí WebP obrázků",
+    "inputTitle": "Vstupní WebP",
+    "resultTitle": "Oříznutý WebP",
+    "dimensions": "Rozměry oříznutí"
   }
 }
